@@ -282,7 +282,7 @@
 
 
     <section class="tw-py-10 tw-px-4">
-      <img src="/images/2-1.jpg" class="tw-w-full" alt="">
+      <img src="./assets/images/2-1.jpg" class="tw-w-full" alt="">
     </section>
 
     <section class="tw-py-16 tw-px-4 tw-container tw-mx-auto">
@@ -535,7 +535,7 @@
 
     <section class="tw-py-16 tw-px-4 tw-container tw-mx-auto">
       <h3 class="tw-text-2xl tw-font-black tw-text-center tw-mb-4">Why Choose Us?</h3>
-      <img src="/images/2-2.jpg" alt="" class="tw-block tw-w-full tw-object-cover tw-object-center tw-mx-auto" />
+      <img src="./assets/images/2-2.jpg" alt="" class="tw-block tw-w-full tw-object-cover tw-object-center tw-mx-auto" />
 
       <div class="tw-flex tw-flex-col tw-items-center tw-max-w-5xl tw-mx-auto">
         <h4 class="tw-font-bold tw-text-md tw-mx-auto">Our tw-flexible and diverse products, global reach & local knowledge, all diversed hassle-free by our Air Freight Experts</h4>
@@ -551,7 +551,7 @@
 
 
     <section class="tw-my-16 tw-px-4 tw-container tw-mx-auto">
-      <img src="/images/2-3.jpg" alt="" class="tw-block tw-mx-auto">
+      <img src="./assets/images/2-3.jpg" alt="" class="tw-block tw-mx-auto">
 
       <div class="tw-space-y-3 tw-pt-2">
         <h3 class="tw-text-2xl tw-font-black tw-text-center tw-tracking-tight">Thinking Things Over or Unsure of what to do ?</h3>
