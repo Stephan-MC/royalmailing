@@ -1,0 +1,41 @@
+
+                <!--Background Layer-->
+                <div class="bg-layer"></div>
+
+
+                <div class="auto-container">
+                    <div class="nav-outer clearfix">
+                        <!-- Main Menu -->
+                        <nav class="main-menu">
+                            <div class="navbar-header navbar-fluid">
+                                <!-- Toggle Button -->
+                                <button type="button" class="navbar-toggle navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+
+                            <div class="navbar-collapse collapse clearfix">
+                                <ul class="navigation clearfix navbar-nav">
+                                    <li><a href="index-2.php">Home</a></li>
+                                    <li><a href="tracking.php">Track & Trace Shipment</a></li>
+                                    <li class="dropdown"><a href="service.php">Services</a>
+                                        <ul>
+                                            <li><a href="air.php">Air Transportation</a></li>
+                                            <li><a href="marine.php">Marine Transportation</a></li>
+                                            <li><a href="trucking.php">Trucking</a></li>
+                                            <li><a href="moving.php">Moving & Storage</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.php">Contact Us</a></li>
+                                    <li><a href="about.php">About Us</a></li>
+                                    <!-- <li><a href="/termsconditions">Terms & Conditions</a></li> -->
+                                </ul>
+                            </div>
+                        </nav><!-- Main Menu End-->
+
+                        <!-- <div class="btn-outer"><a href="#inquiry" class="theme-btn quote-btn">REQUEST A QUOTE</a></div> -->
+
+                    </div>
+                </div>

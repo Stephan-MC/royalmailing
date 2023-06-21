@@ -1,0 +1,58 @@
+[17-May-2023 16:43:48 UTC] PHP Warning:  Undefined array key "username" in /home/royalmailing/public_html/admin/pages/process_login.php on line 5
+[17-May-2023 16:43:48 UTC] PHP Warning:  Undefined array key "password" in /home/royalmailing/public_html/admin/pages/process_login.php on line 6
+[17-May-2023 18:55:20 UTC] PHP Warning:  Undefined variable $shipment_category in /home/royalmailing/public_html/admin/pages/process-edit.php on line 14
+[17-May-2023 18:55:20 UTC] PHP Warning:  Undefined variable $sender_country in /home/royalmailing/public_html/admin/pages/process-edit.php on line 34
+[17-May-2023 18:55:20 UTC] PHP Warning:  Undefined variable $receiver_country in /home/royalmailing/public_html/admin/pages/process-edit.php on line 38
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $trackin_number in /home/royalmailing/public_html/admin/pages/process-edit.php on line 11
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $shipment_title in /home/royalmailing/public_html/admin/pages/process-edit.php on line 12
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $shipment_method in /home/royalmailing/public_html/admin/pages/process-edit.php on line 13
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $shipment_category in /home/royalmailing/public_html/admin/pages/process-edit.php on line 14
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $shipment_weight in /home/royalmailing/public_html/admin/pages/process-edit.php on line 15
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $shipment_total in /home/royalmailing/public_html/admin/pages/process-edit.php on line 16
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $shipment_description in /home/royalmailing/public_html/admin/pages/process-edit.php on line 17
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $departure_location in /home/royalmailing/public_html/admin/pages/process-edit.php on line 18
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $departure_date in /home/royalmailing/public_html/admin/pages/process-edit.php on line 19
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $departure_time in /home/royalmailing/public_html/admin/pages/process-edit.php on line 20
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $pickup_location in /home/royalmailing/public_html/admin/pages/process-edit.php on line 21
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $pickup_date in /home/royalmailing/public_html/admin/pages/process-edit.php on line 22
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $pickup_time in /home/royalmailing/public_html/admin/pages/process-edit.php on line 23
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $current_location in /home/royalmailing/public_html/admin/pages/process-edit.php on line 24
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $current_date in /home/royalmailing/public_html/admin/pages/process-edit.php on line 25
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $current_time in /home/royalmailing/public_html/admin/pages/process-edit.php on line 26
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $status in /home/royalmailing/public_html/admin/pages/process-edit.php on line 27
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $status_reason in /home/royalmailing/public_html/admin/pages/process-edit.php on line 28
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $sender_name in /home/royalmailing/public_html/admin/pages/process-edit.php on line 29
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $sender_email in /home/royalmailing/public_html/admin/pages/process-edit.php on line 30
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $sender_phone in /home/royalmailing/public_html/admin/pages/process-edit.php on line 31
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $receiver_street in /home/royalmailing/public_html/admin/pages/process-edit.php on line 32
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $sender_city in /home/royalmailing/public_html/admin/pages/process-edit.php on line 33
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $sender_country in /home/royalmailing/public_html/admin/pages/process-edit.php on line 34
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $receiver_name in /home/royalmailing/public_html/admin/pages/process-edit.php on line 35
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $receiver_email in /home/royalmailing/public_html/admin/pages/process-edit.php on line 36
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $receiver_city in /home/royalmailing/public_html/admin/pages/process-edit.php on line 37
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $receiver_country in /home/royalmailing/public_html/admin/pages/process-edit.php on line 38
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $receiver_phone in /home/royalmailing/public_html/admin/pages/process-edit.php on line 39
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $product_name in /home/royalmailing/public_html/admin/pages/process-edit.php on line 40
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $receiver_house in /home/royalmailing/public_html/admin/pages/process-edit.php on line 41
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $id in /home/royalmailing/public_html/admin/pages/process-edit.php on line 42
+[17-May-2023 18:56:13 UTC] PHP Warning:  Undefined variable $id in /home/royalmailing/public_html/admin/pages/process-edit.php on line 48
+[17-May-2023 18:56:13 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/royalmailing/public_html/admin/pages/edit-shipment.php:29
+Stack trace:
+#0 /home/royalmailing/public_html/admin/pages/edit-shipment.php(29): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/royalmailing/public_html/admin/pages/edit-shipment.php on line 29
+[17-May-2023 18:56:19 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/royalmailing/public_html/admin/pages/edit-shipment.php:29
+Stack trace:
+#0 /home/royalmailing/public_html/admin/pages/edit-shipment.php(29): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/royalmailing/public_html/admin/pages/edit-shipment.php on line 29
+[18-May-2023 08:12:24 UTC] PHP Warning:  Undefined variable $shipment_category in /home/royalmailing/public_html/admin/pages/process-edit.php on line 14
+[18-May-2023 08:19:02 UTC] PHP Warning:  Undefined variable $shipment_category in /home/royalmailing/public_html/admin/pages/process-edit.php on line 14
+[18-May-2023 08:51:21 UTC] PHP Parse error:  syntax error, unexpected token ";" in /home/royalmailing/public_html/admin/pages/edit-shipment.php on line 344
+[18-May-2023 08:51:26 UTC] PHP Parse error:  syntax error, unexpected token ";" in /home/royalmailing/public_html/admin/pages/edit-shipment.php on line 344
+[18-May-2023 08:52:53 UTC] PHP Parse error:  syntax error, unexpected token ";" in /home/royalmailing/public_html/admin/pages/edit-shipment.php on line 344
+[18-May-2023 08:54:38 UTC] PHP Parse error:  syntax error, unexpected token ";" in /home/royalmailing/public_html/admin/pages/edit-shipment.php on line 344
+[18-May-2023 09:07:17 UTC] PHP Warning:  Undefined variable $shipment_category in /home/royalmailing/public_html/admin/pages/process-edit.php on line 14
+[18-May-2023 15:01:20 UTC] PHP Warning:  Undefined variable $shipment_category in /home/royalmailing/public_html/admin/pages/process-edit.php on line 14
+[18-May-2023 23:10:51 UTC] PHP Warning:  Undefined variable $shipment_category in /home/royalmailing/public_html/admin/pages/process-edit.php on line 14
+[02-Jun-2023 11:17:45 UTC] PHP Warning:  Undefined variable $shipment_category in /home/royalmailing/public_html/admin/pages/process-edit.php on line 14

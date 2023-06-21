@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mapbox API - Current, Departure, and Destination Locations</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+
+    .input-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .input-container label {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+  <div class="input-container">
+    <label for="current-input">Current Location:</label>
+    <input type="text" id="current-input" />
+  </div>
+  <div class="input-container">
+    <label for="departure-input">Departure:</label>
+    <input type="text" id="departure-input" />
+  </div>
+  <div class="input-container">
+    <label for="destination-input">Destination:</label>
+    <input type="text" id="destination-input" />
+  </div>
+  <div class="input-container">
+    <label for="travel-mode">Travel Mode:</label>
+    <select id="travel-mode">
+      <option value="driving">Driving</option>
+      <option value="walking">Walking</option>
+      <option value="cycling">Cycling</option>
+    </select>
+  </div>
+  <div>
+    <button onclick="calculateRoute()">Get Directions</button>
+  </div>
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1Ijoiam9zaHVhZWZ1ZXQiLCJhIjoiY2xoYnJ2NXVwMHVqNDNrcWZ5aHZydW81cCJ9.mvWTbMBV6S-fvUJld3lFjA';
+
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [-122.4194, 37.7749],
+      zoom: 13
+    });
+
+    function calculateRoute() {
+      var currentInput = document.getElementById('current-input').value;
+      var departureInput = document.getElementById('departure-input').value;
+      var destinationInput = document.getElementById('destination-input').value;
+      var travelMode = document.getElementById('travel-mode').value;
+
+      // Set the current location as the starting point
+      var startLocation;
+      if (currentInput === '') {
+        startLocation = [map.getCenter().lng, map.getCenter().lat];
+      } else {
+        startLocation = currentInput.split(',').reverse();
+      }
+
+      var url = 'https://api.mapbox.com/directions/v5/mapbox/' + travelMode + '/' + startLocation.join(',') + ';' + departureInput + ';' + destinationInput + '?access_token=' + mapboxgl
+
+  fetch(url)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      var route = data.routes[0].geometry;
+      map.addLayer({
+        'id': 'route',
+        'type': 'line',
+        'source': {
+          'type': 'geojson',
+          'data': {
+            'type': 'Feature',
+            'geometry': route
+          }
+        },
+        'layout': {
+          'line-join': 'round',
+          'line-cap': 'round'
+        },
+        'paint': {
+          'line-color': '#888',
+          'line-width': 8
+        }
+      })
+      var bounds = route.coordinates.reduce(function(bounds, coord) {
+        return bounds.extend(coord);
+      }, new mapboxgl.LngLatBounds(route.coordinates[0], route.coordinates[0]));
+
+      map.fitBounds(bounds, {
+        padding: { top: 50, bottom: 50, left: 50, right: 50 }
+      });
+    });
+}
+</script>
+</body></html>
