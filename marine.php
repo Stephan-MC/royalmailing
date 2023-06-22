@@ -1,11 +1,8 @@
 <?php
 
-// include 'admin/pages/config.php';
+include 'admin/pages/config.php';
 
-// global $mysqli;
-
-
-
+global $mysqli;
 
 ?>
 <!DOCTYPE html>
@@ -148,6 +145,7 @@
                     <ul>
                       <li><a href="air.php">Air Transportation</a></li>
                       <li><a href="marine.php">Marine Transportation</a></li>
+                      <li><a href="rail.php">Rail Transportation</a></li>
                       <li><a href="trucking.php">Trucking</a></li>
                       <li><a href="moving.php">Moving & Storage</a></li>
                     </ul>
@@ -194,6 +192,7 @@
                   <li class="dropdown"><a href="service.php">Services</a>
                     <ul>
                       <li><a href="air.php">Air Transportation</a></li>
+                      <li><a href="rail.php">Rail Transportation</a></li>
                       <li><a href="marine.php">Marine Transportation</a></li>
                       <li><a href="trucking.php">Trucking</a></li>
                       <li><a href="moving.php">Moving & Storage</a></li>
@@ -327,7 +326,7 @@
       <div class="tw-flex tw-justify-center tw-flex-wrap">
         <div class="tw-p-2 tw-basis-full sm:tw-basis-1/2 md:tw-basis-1/3 lg:tw-basis-1/4">
           <div class="tw-flex tw-flex-col tw-rounded-t-lg tw-overflow-hidden tw-h-[300px]">
-            <img src="assets/images/ocean-1.jpg" alt="">
+            <img src="/images/ocean-1.jpg" alt="">
             <h4 class="tw-text-lg tw-font-extrabold tw-mt-5 tw-mb-2">Full-Container-Load (FCL)</h4>
             <p>Ensuring reliable, safe and cost-efficient transportation door to door globally.</p>
           </div>
@@ -335,7 +334,7 @@
 
         <div class="tw-p-2 tw-basis-full sm:tw-basis-1/2 md:tw-basis-1/3 lg:tw-basis-1/4">
           <div class="tw-flex tw-flex-col tw-rounded-t-lg tw-overflow-hidden tw-h-[300px]">
-            <img src="assets/images/ocean-2.jpg" alt="">
+            <img src="/images/ocean-2.jpg" alt="">
             <h4 class="tw-text-lg tw-font-extrabold tw-mt-5 tw-mb-2">Full-Container-Load (FCL)</h4>
             <p>Ensuring reliable, safe and cost-efficient transportation door to door globally.</p>
           </div>
@@ -343,7 +342,7 @@
 
         <div class="tw-p-2 tw-basis-full sm:tw-basis-1/2 md:tw-basis-1/3 lg:tw-basis-1/4">
           <div class="tw-flex tw-flex-col tw-rounded-t-lg tw-overflow-hidden tw-h-[300px]">
-            <img src="assets/images/ocean-3.jpg" alt="">
+            <img src="/images/ocean-3.jpg" alt="">
             <h4 class="tw-text-lg tw-font-extrabold tw-mt-5 tw-mb-2">Full-Container-Load (FCL)</h4>
             <p>Ensuring reliable, safe and cost-efficient transportation door to door globally.</p>
           </div>
@@ -351,7 +350,7 @@
 
         <div class="tw-p-2 tw-basis-full sm:tw-basis-1/2 md:tw-basis-1/3 lg:tw-basis-1/4">
           <div class="tw-flex tw-flex-col tw-rounded-t-lg tw-overflow-hidden tw-h-[300px]">
-            <img src="assets/images/ocean-4.jpg" alt="">
+            <img src="/images/ocean-4.jpg" alt="">
             <h4 class="tw-text-lg tw-font-extrabold tw-mt-5 tw-mb-2">Full-Container-Load (FCL)</h4>
             <p>Ensuring reliable, safe and cost-efficient transportation door to door globally.</p>
           </div>
@@ -359,7 +358,7 @@
 
         <div class="tw-p-2 tw-basis-full sm:tw-basis-1/2 md:tw-basis-1/3 lg:tw-basis-1/4">
           <div class="tw-flex tw-flex-col tw-rounded-t-lg tw-overflow-hidden tw-h-[300px]">
-            <img src="assets/images/ocean-5.jpg" alt="">
+            <img src="/images/ocean-5.jpg" alt="">
             <h4 class="tw-text-lg tw-font-extrabold tw-mt-5 tw-mb-2">Full-Container-Load (FCL)</h4>
             <p>Ensuring reliable, safe and cost-efficient transportation door to door globally.</p>
           </div>
@@ -367,7 +366,7 @@
 
         <div class="tw-p-2 tw-basis-full sm:tw-basis-1/2 md:tw-basis-1/3 lg:tw-basis-1/4">
           <div class="tw-flex tw-flex-col tw-rounded-t-lg tw-overflow-hidden tw-h-[300px]">
-            <img src="assets/images/ocean-6.jpg" alt="">
+            <img src="/images/ocean-6.jpg" alt="">
             <h4 class="tw-text-lg tw-font-extrabold tw-mt-5 tw-mb-2">Full-Container-Load (FCL)</h4>
             <p>Ensuring reliable, safe and cost-efficient transportation door to door globally.</p>
           </div>
@@ -604,6 +603,7 @@
                 <h2>Services</h2>
                 <ul>
                   <li><a href="air.php">Air Transportation</a></li>
+                  <li><a href="rail.php">Rail Transportation</a></li>
                   <li><a href="marine.php">Marine Transportation</a></li>
                   <li><a href="trucking.php">Trucking</a></li>
                   <li><a href="moving.php">Moving & Storage</a></li>

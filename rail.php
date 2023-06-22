@@ -4,10 +4,8 @@ include 'admin/pages/config.php';
 
 global $mysqli;
 
-
-
-
 ?>
+
 <!DOCTYPE html>
 <html style="font-size: 16px">
 
@@ -23,9 +21,6 @@ global $mysqli;
   <link href="css/revolution-slider.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/tailwind.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
@@ -115,7 +110,7 @@ global $mysqli;
                 <div class="icon-box"><span class="flaticon-location"></span></div>
                 <ul>
                   <li style="padding-left: 10px;"><strong>Dublin, Ireland</strong></li>
-                </ul>parcel
+                </ul>
               </div>
 
             </div>
@@ -151,6 +146,7 @@ global $mysqli;
                     <ul>
                       <li><a href="air.php">Air Transportation</a></li>
                       <li><a href="marine.php">Marine Transportation</a></li>
+                      <li><a href="rail.php">Rail Transportation</a></li>
                       <li><a href="trucking.php">Trucking</a></li>
                       <li><a href="moving.php">Moving & Storage</a></li>
                     </ul>
@@ -284,332 +280,204 @@ global $mysqli;
 
 
 
-    <div class="tw-relative tw-h-[60vh]  tw-w-full">
-      <div class="tw-absolute tw-h-full tw-bg-[url('/images/us_background.jpg')] tw-bg-center tw-bg-no-repeat tw-bg-cover tw-w-full"></div>
 
-      <div class="tw-relative tw-h-full tw-flex tw-justify-center tw-items-center tw-bg-black/40 tw-w-full">
-        <div class="tw-flex tw-justify-center md:tw-space-x-20 tw-items-center tw-flex-wrap">
-          <p class="tw-text-white sm:tw-max-w-xs tw-text-3xl tw-text-center">
-            Welcome to <span class="tw-font-semibold">Royal Mailing</span> Fast,
-            Door-to-Door, Courier Delivered
-          </p>
-          <div class="tw-p-3 tw-rounded-md tw-flex tw-flex-col tw-space-y-4 tw-bg-black/40 tw-backdrop-blur-md">
-            <h1 class="tw-text-xl tw-text-white tw-capitalize">get started now</h1>
-            <ul class="tw-flex tw-flex-wr tw-space-x-[1px] tw-text-sm tw-capitalize tw-text-gray-600">
-              <li class="tw-p-2 tw-cursor-pointer tw-rounded-l-sm tw-bg-white">
-                create new shipment
-              </li>
-              <li class="tw-p-2 tw-cursor-pointer tw-bg-white">
-                get a rate and time quote
-              </li>
-              <li class="tw-p-2 tw-cursor-pointer tw-rounded-r-sm tw-bg-white">
-                shedule a pickup
-              </li>
+    <section>
+
+      <section class="md:tw-h-[450px] tw-relative ">
+        <div class="tw-h-full  tw-w-full tw-bg-gray-500 tw-overflow-hidden">
+          <img src="/images/rail-1.webp" alt="" class="tw-h-full tw-w-full tw-object-center tw-object-cover">
+        </div>
+        <div class="md:tw-absolute tw-grid md:tw-mx-20 tw-bg-white tw-top-[30%] tw-p-7 tw-space-y-8">
+          <a href="" class="tw-text-3xl tw-text-primary">
+            <div>GET IN TOUCH</div>
+            <div class="tw-font-bold">FOR RAIL FREIGHT INQUIRIES</div>
+          </a>
+          <button class="tw-bg-primary tw-text-white tw-px-4 tw-py-2 tw-rounded-sm">Between Europe - Asia</button>
+        </div>
+      </section>
+      <section class=" tw-mx-10 tw-my-10 tw-px-5">
+        <nav class="tw-text-gray-700">
+          <a href="" class="hover:tw-text-primary">RoyalMailing Cameroon</a>
+          <svg class="tw-h-5 tw-w-5 tw-fill-gray-700 tw-inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <title>
+              chevron-right</title>
+            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+          </svg>
+          <a href="" class="hover:tw-text-primary">Our Division</a>
+          <svg class="tw-h-5 tw-w-5  tw-inline tw-fill-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <title>
+              chevron-right</title>
+            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+          </svg>
+          <a href="" class="hover:tw-text-primary">RoyalMailing Global Forwarding</a>
+          <svg class="tw-h-5 tw-w-5  tw-inline tw-fill-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <title>
+              chevron-right</title>
+            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+          </svg>
+          <span class="tw-text-black">Rail Freight</span>
+        </nav>
+      </section>
+      <section class="tw-my-10">
+        <div class="tw-max-w-[768px] tw-text-center tw-mx-auto tw-space-y-8">
+          <div class="tw-text-xl md:tw-text-4xl">
+            <h2 class=" tw-font-bold tw-text-primary">RAIL FREIGHT</h2>
+            <h3>On Track with the New Silk Road</h3>
+          </div>
+          <p>Our Rail Freight products offer secure, reliable and environmentally friendly freight transportation via
+            rail, either throughout Europe or connecting Europe and Asia, West- and Eastbound, LCL
+            (Less-than-Container-Load) or FCL (Full-Container-Load).</p>
+        </div>
+      </section>
+      <section class="tw-my-10 tw-px-5">
+        <div class="tw-text-center tw-mx-auto tw-max-w-[768px]">
+          <h2 class=" tw-font-bold tw-text-3xl tw-mb-8">RoyalMailing RailLine - Full-Container-Load (FCL)</h2>
+          <div class="">
+            <img src="/images/rail-2.jpg" alt="not found" class="md:tw-float-right tw-h-48 tw-w-96">
+            <ul class="tw-list-[square] tw-text-left tw-space-y-4 tw-py-5">
+              <li>Regular departures from major business centres across Europe and Asia</li>
+              <li>An environmentally friendly alternative for your FCL cargo transportation</li>
+              <li>Services available for containers, trailers, wagon groups and block train movements</li>
             </ul>
           </div>
-        </div>
-      </div>
-      <!-- hanging div -->
-      <div class="tw-absolute tw-h-28 tw--bottom-10 tw-left-1/2 tw-flex tw-flex-wrap md:tw-flex-nowrap tw-items-center tw-justify-center tw--translate-x-1/2 z-20 tw-tw-container tw-w-[84rem]">
-        <div class="tw-flex tw-space-x-[1px] tw-items-center tw-justify-center tw-h-28">
-          <div class="tw-flex tw-flex-col tw-group tw-py-5 tw-bg-neutral-100 tw-text-primary tw-px-10 tw-rounded-l-sm tw-justify-center tw-h-full tw-items-center hover:tw-shadow-xl hover:tw-shadow-gray-300 tw-transition-shadow tw-text-center">
-            <svg class="tw-fill-gray-400 tw-group-hover:tw-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <title>tag</title>
-              <path d="M5.5,7A1.5,1.5 0 0,1 4,5.5A1.5,1.5 0 0,1 5.5,4A1.5,1.5 0 0,1 7,5.5A1.5,1.5 0 0,1 5.5,7M21.41,11.58L12.41,2.58C12.05,2.22 11.55,2 11,2H4C2.89,2 2,2.89 2,4V11C2,11.55 2.22,12.05 2.59,12.41L11.58,21.41C11.95,21.77 12.45,22 13,22C13.55,22 14.05,21.77 14.41,21.41L21.41,14.41C21.78,14.05 22,13.55 22,13C22,12.44 21.77,11.94 21.41,11.58Z" />
-            </svg>
-            <a href="#">Get quote</a>
-          </div>
-          <div class="tw-flex tw-flex-col tw-group tw-py-5 tw-bg-neutral-100 tw-text-primary tw-px-10 tw-justify-center tw-h-full tw-items-center hover:tw-shadow-xl hover:tw-shadow-gray-300 tw-transition-shadow tw-text-center">
-            <svg class="tw-fill-gray-400 tw-group-hover:tw-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <title>truck-check</title>
-              <path d="M3,4H17V8H20L23,12V17H21A3,3 0 0,1 18,20A3,3 0 0,1 15,17H9A3,3 0 0,1 6,20A3,3 0 0,1 3,17H1V6C1,4.89 1.9,4 3,4M17,9.5V12H21.47L19.5,9.5H17M6,15.5A1.5,1.5 0 0,0 4.5,17A1.5,1.5 0 0,0 6,18.5A1.5,1.5 0 0,0 7.5,17A1.5,1.5 0 0,0 6,15.5M18,15.5A1.5,1.5 0 0,0 16.5,17A1.5,1.5 0 0,0 18,18.5A1.5,1.5 0 0,0 19.5,17A1.5,1.5 0 0,0 18,15.5M8,14L14,8L12.59,6.58L8,11.17L5.91,9.08L4.5,10.5L8,14Z" />
-            </svg>
-            <a href="#">delivery services</a>
-          </div>
-          <div class="tw-flex tw-flex-col tw-group tw-py-5 tw-bg-neutral-100 tw-text-primary tw-px-10 tw-justify-center tw-h-full tw-items-center hover:tw-shadow-xl hover:tw-shadow-gray-300 tw-transition-shadow tw-text-center">
-            <svg class="tw-fill-gray-400 tw-group-hover:tw-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <title>map-marker-radius-outline</title>
-              <path d="M12 4C14.2 4 16 5.8 16 8C16 10.1 13.9 13.5 12 15.9C10.1 13.4 8 10.1 8 8C8 5.8 9.8 4 12 4M12 2C8.7 2 6 4.7 6 8C6 12.5 12 19 12 19S18 12.4 18 8C18 4.7 15.3 2 12 2M12 6C10.9 6 10 6.9 10 8S10.9 10 12 10 14 9.1 14 8 13.1 6 12 6M20 19C20 21.2 16.4 23 12 23S4 21.2 4 19C4 17.7 5.2 16.6 7.1 15.8L7.7 16.7C6.7 17.2 6 17.8 6 18.5C6 19.9 8.7 21 12 21S18 19.9 18 18.5C18 17.8 17.3 17.2 16.2 16.7L16.8 15.8C18.8 16.6 20 17.7 20 19Z" />
-            </svg>
-            <a href="#">location services</a>
-          </div>
-        </div>
-
-        <div class="tw-flex tw-flex-col tw-bg-yellow-300 tw-p-4 tw-justify-center tw-h-full tw-rounded-r-sm tw-items-center hover:tw-shadow-xl hover:tw-shadow-gray-300 tw-transition-shadow tw-text-center">
-          <div class="tw-bg-white border tw-justify-center tw-p-1 tw-flex tw-flex-wrap md:tw-flex-nowrap tw-container tw-w-fit">
-            <input class="tw-text-black focus:tw-outline-none tw-px-4 placeholder:!tw-text-gray-900 placeholder:tw-capitalize" placeholder="track your shipment" type="tw-text" />
-            <button class="tw-bg-green-500 tw-p-2 tw-text-white tw-rounded-sm tw-px-4">
-              Track
-            </button>
+          <div class="tw-text-left tw-border-t-[2px] tw-border-b-[2px] tw-my-10">
+            <div id="readmore" class="tw-py-4 tw-flex tw-items-center tw-justify-between hover:tw-text-primary">
+              <h3 class="">Read More</h3>
+              <svg class="tw-h-6 tw-w-6 tw-fill-primary tw-transform tw-rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <title>
+                  chevron-down</title>
+                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+              </svg>
+            </div>
+            <div class="tw-space-y-6 tw-pb-5 tw-hidden">
+              <h4>Full-Container-Load (FCL) rail multi-modal service available with single containers, trailers,
+                wagon groups and block train movements.</h4>
+              <h4>Environmentally friendly, cost efficient & providing reliable and prompt connections within
+                Europe, and connecting Asia Pacific and Europe – both west and eastbound.</h4>
+              <ul class="tw-list-[square] tw-text-left tw-space-y-4">
+                <li>Standard loading unit: containers, trailers, wagon groups and block trains</li>
+                <li>Pre and on-carriage, either by chassis truck or trailer (tilt or box)</li>
+                <li>Service covering Asian origins/destinations in China, Taiwan, Japan, Korea, Vietnam, to and
+                  from Europe
+                </li>
+                <li>Highly reliable connections between DHL’s regional networks in Europe and Asia</li>
+                <li>Dedicated rail hubs in Europe and China</li>
+                <li>Standardised operation from pick-up to delivery</li>
+                <li>Secure and monitored loading and handling</li>
+                <li>State-of-the-art Track and Trace</li>
+                <li>Efficient handling of transit formalities</li>
+                <li>Regular departures between major business centres</li>
+                <li>Defined and highly reliable door-to-door lead times</li>
+                <li>Excludes dangerous goods</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- swipper area -->
-    <div class="tw-mt-[260px] sm:tw-mt-[190px] md:tw-mt-[200px] tw-flex lg:mt-28 tw-h-[360px] tw-max-w-5xl tw-mx-auto">
-      <div class="swiper swiper_1 tw-rounded-sm px-2 shadow-lg tw-h-full">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide tw-relative">
-            <div class="tw-relative tw-h-full tw-w-full">
-              <div class="tw-w-full tw-h-full tw-bg-cover tw-bg-center tw-bg-[url('/images/2.jpg')]"></div>
-              <div class="tw-absolute tw-text-gray-700 tw-top-0 tw-bottom-0 tw-right-0 sm:tw-w-1/3 tw-bg-slate-100/80 tw-backdrop-blur-[0.3px]">
-                <div class="tw-flex tw-flex-col tw-justify-around tw-h-full tw-px-10 tw-container">
-                  <div class="tw-space-y-4">
-                    <p class="tw-font-bold tw-capitalize tw-text-2xl tw-text-start">
-                      Save 30% on your shipment
-                    </p>
-                    <p class="tw-capitalize">
-                      Fast, convenient international time or day-specific export
-                      delivery services every time you ship with a credit
-                      card.<span class="tw-text-primary"> Terms apply.</span>
-                    </p>
-                  </div>
-
-                  <!-- button -->
-                  <a href="#" class="tw-bg-yellow-400 p-3 tw-text-center tw-capitalize tw-rounded-md">Ship with a credit card</a>
-                </div>
-              </div>
+        <div class="tw-text-center tw-mx-auto tw-max-w-[768px]">
+          <h2 class=" tw-font-bold tw-text-3xl tw-mb-8">RoyalMailing RailConnect - Less-than-Container-Load (LCL)</h2>
+          <div class="">
+            <img src="/images/rail-2.jpg" alt="not found" class="md:tw-float-right tw-h-48 tw-w-96">
+            <ul class="tw-list-[square] tw-text-left tw-space-y-4 tw-py-5">
+              <li>Fast & secure transportation of your Less-than-Container-Load (LCL) cargo</li>
+              <li>Regular departures from major business centres across Europe and China</li>
+              <li>Defined & reliable transit times</li>
+            </ul>
+          </div>
+          <div class="tw-text-left tw-border-t-[2px] tw-border-b-[2px] tw-my-10">
+            <div id="readmore" class="tw-py-4 tw-flex tw-items-center tw-justify-between hover:tw-text-primary">
+              <h3 class="">Read More</h3>
+              <svg class="tw-h-6 tw-w-6 tw-fill-primary tw-transform tw-rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <title>
+                  chevron-down</title>
+                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+              </svg>
+            </div>
+            <div class="tw-space-y-6 tw-pb-5 tw-hidden">
+              <h4>Flexible, environmentally friendly Less-than-Container-Load (LCL) rail multi-modal services that
+                provides/offers reliable and pre-defined scheduled departures. </h4>
+              <h4>Fast, secure & cost efficient transportation, connecting Asia Pacific and Europe – both west and
+                eastbound.</h4>
+              <ul class="tw-list-[square] tw-text-left tw-space-y-4">
+                <li>Standard loading unit: pallets, cartons or boxes</li>
+                <li>Service covering origins/destinations in China and Europe</li>
+                <li>Regular departures between major business centres, with connections between DHL’s regional
+                  networks, via dedicated rail hubs in Europe and China
+                </li>
+                <li>Standardised operation from pick-up to delivery, with defined and highly reliable
+                  door-to-door lead times
+                </li>
+                <li>Secure and monitored loading and handling</li>
+                <li>State-of-the-art Track and Trace</li>
+                <li>Efficient handling of transit formalities</li>
+                <li>Pick-up and delivery via DHL road networks</li>
+                <li>Maximum dimensions per item: 240cm (L) x 220cm (W) x 220cm (H)</li>
+                <li>Excludes dangerous goods</li>
+              </ul>
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="tw-relative tw-h-full tw-w-full">
-              <div class="tw-w-full tw-h-full tw-bg-cover tw-bg-center tw-bg-[url('/images/2.jpg')]"></div>
-              <div class="tw-absolute tw-text-gray-700 tw-top-0 tw-bottom-0 tw-right-0 sm:tw-w-1/3 tw-bg-slate-100/80 tw-backdrop-blur-[0.3px]">
-                <div class="tw-flex tw-flex-col tw-justify-around tw-h-full tw-px-10 tw-container">
-                  <div class="tw-space-y-4">
-                    <p class="tw-font-bold tw-capitalize tw-text-2xl tw-text-start">
-                      enter your business to win!
-                    </p>
-                    <p class="tw-capitalize">
-                      We're giving away $30K in sustainability services to help
-                      boost your brand. Apply by June 30th. .<span class="tw-text-primary">
-                        Terms & Conditions.</span>
-                    </p>
-                  </div>
-
-                  <!-- button -->
-                  <a href="#" class="tw-bg-yellow-400 p-3 tw-capitalize tw-text-center tw-rounded-md">sign up</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="tw-relative tw-h-full tw-w-full">
-              <div class="tw-w-full tw-h-full tw-bg-cover tw-bg-center tw-bg-[url('/images/2.jpg')]"></div>
-              <div class="tw-absolute tw-text-gray-700 tw-top-0 tw-bottom-0 tw-right-0 sm:tw-w-1/3 tw-bg-slate-100/80 tw-backdrop-blur-[0.3px]">
-                <div class="tw-flex tw-flex-col tw-justify-around tw-h-full tw-px-10 tw-container">
-                  <div class="tw-space-y-4">
-                    <p class="tw-font-bold tw-capitalize tw-text-2xl tw-text-start">
-                      Import Express
-                    </p>
-                    <p class="tw-capitalize">
-                      Only with DHL can you prepay for imported tw-items to be
-                      delivered right to your door from anywhere in the world
-                    </p>
-                  </div>
-
-                  <!-- button -->
-                  <a href="#" class="tw-bg-yellow-400 p-3 tw-text-center tw-capitalize tw-rounded-md">Ship with a credit card</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="tw-relative tw-h-full tw-w-full">
-              <div class="tw-w-full tw-h-full tw-bg-cover tw-bg-center tw-bg-[url('/images/2.jpg')]"></div>
-              <div class="tw-absolute tw-text-gray-700 tw-top-0 tw-bottom-0 tw-right-0 sm:tw-w-1/3 tw-bg-slate-100/80 tw-backdrop-blur-[0.3px]">
-                <div class="tw-flex tw-flex-col tw-justify-around tw-h-full tw-px-10 tw-container">
-                  <div class="tw-space-y-4">
-                    <p class="tw-font-bold tw-capitalize tw-text-2xl tw-text-start">
-                      The Journey of a Package
-                    </p>
-                    <p class="tw-capitalize">
-                      Watch how your package travels with DHL and learn how we
-                      can help you with each step of the journey
-                    </p>
-                  </div>
-
-                  <!-- button -->
-                  <a href="#" class="tw-bg-yellow-400 p-3 tw-text-center tw-capitalize tw-rounded-md">follow package</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="tw-relative tw-h-full tw-w-full">
-              <div class="tw-w-full tw-h-full tw-bg-cover tw-bg-center tw-bg-[url('/images/2.jpg')]"></div>
-              <div class="tw-absolute tw-text-gray-700 tw-top-0 tw-bottom-0 tw-right-0 sm:tw-w-1/3 tw-bg-slate-100/80 tw-backdrop-blur-[0.3px]">
-                <div class="tw-flex tw-flex-col tw-justify-around tw-h-full tw-px-10 tw-container">
-                  <div class="tw-space-y-4">
-                    <p class="tw-font-bold tw-capitalize tw-text-2xl tw-text-start">
-                      We Know Customs
-                    </p>
-                    <p class="tw-capitalize">
-                      Shipping to over 200 countries and territories – we’ve
-                      established a wealth of customs expertise
-                    </p>
-                  </div>
-
-                  <!-- button -->
-                  <a href="#" class="tw-bg-yellow-400 p-3 tw-text-center tw-capitalize tw-rounded-md">customs clerance advise</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="tw-relative tw-h-full tw-w-full">
-              <div class="tw-w-full tw-h-full tw-bg-cover tw-bg-center tw-bg-[url('/images/2.jpg')]"></div>
-              <div class="tw-absolute tw-text-gray-700 tw-top-0 tw-bottom-0 tw-right-0 sm:tw-w-1/3 tw-bg-slate-100/80 tw-backdrop-blur-[0.3px]">
-                <div class="tw-flex tw-flex-col tw-justify-around tw-h-full tw-px-10 tw-container">
-                  <div class="tw-space-y-4">
-                    <p class="tw-font-bold tw-capitalize tw-text-2xl tw-text-start">
-                      New to International Shipping?
-                    </p>
-                    <p class="tw-capitalize">
-                      We’re specialists in international shipping! We’ve got
-                      tips and advice to help you ship with confidence.
-                    </p>
-                  </div>
-
-                  <!-- button -->
-                  <a href="#" class="tw-bg-yellow-400 p-3 tw-text-center tw-capitalize tw-rounded-md">get shipping advice</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="tw-relative tw-h-full tw-w-full">
-              <div class="tw-w-full tw-h-full tw-bg-cover tw-bg-center tw-bg-[url('/images/2.jpg')]"></div>
-              <div class="tw-absolute tw-text-gray-700 tw-top-0 tw-bottom-0 tw-right-0 sm:tw-w-1/3 tw-bg-slate-100/80 tw-backdrop-blur-[0.3px]">
-                <div class="tw-flex tw-flex-col tw-justify-around tw-h-full tw-px-10 tw-container">
-                  <div class="tw-space-y-4">
-                    <p class="tw-font-bold tw-capitalize tw-text-2xl tw-text-start">
-                      Prepare Your Package for the Journey
-                    </p>
-                    <p class="tw-capitalize">
-                      Get tips and advice for packing your shipment.
-                    </p>
-                  </div>
-
-                  <!-- button -->
-                  <a href="#" class="tw-bg-yellow-400 p-3 tw-text-center tw-capitalize tw-rounded-md">packing with care</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="tw-relative tw-h-full tw-w-full">
-              <div class="tw-w-full tw-h-full tw-bg-cover tw-bg-center tw-bg-[url('/images/2.jpg')]"></div>
-              <div class="tw-absolute tw-text-gray-700 tw-top-0 tw-bottom-0 tw-right-0 sm:tw-w-1/3 tw-bg-slate-100/80 tw-backdrop-blur-[0.3px]">
-                <div class="tw-flex tw-flex-col tw-justify-around tw-h-full tw-px-10 tw-container">
-                  <div class="tw-space-y-4">
-                    <p class="tw-font-bold tw-capitalize tw-text-2xl tw-text-start">
-                      DHL Express Delivers
-                    </p>
-                    <p class="tw-capitalize">
-                      With international reach and local teams, we offer time
-                      definite door-to-door delivery around the world.
-                    </p>
-                  </div>
-
-                  <!-- button -->
-                  <a href="#" class="tw-bg-yellow-400 p-3 tw-text-center tw-capitalize tw-rounded-md">our services at a glance</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          ...
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+      </section>
+      <section class="tw-container tw-mx-auto tw-py-10 tw-px-5">
+        <h2 class=" tw-font-bold tw-text-3xl tw-mb-8 tw-text-center">Why Choose Us?</h2>
+        <div class="tw-flex tw-flex-wrap md:tw-flex-nowrap tw-items-center tw-gap-5 tw-items-stretch">
+          <div class="tw-rounded-sm tw-overflow-hidden tw-w-full tw-shadow-md">
+            <div class="tw-h-[200px] tw-bg-gray-400">
+              <img src="/images/rail-4.jpg" class="tw-w-full tw-h-full tw-object-center tw-object-cover" />
+            </div>
+            <div class="tw-h-2/4 tw-py-10 tw-px-5">
+              <h3 class="tw-text-gray-700 tw-text-sm">Pre-defined schedule and capacity providing fast and secure connection between Asia and
+                Europe and/or Europe to Asia</h3>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-    </div>
-    <!-- add section -->
-    <div class="tw-flex tw-my-10 p-4 tw-flex-wrap tw-justify-around sm:tw-justify-center tw-space-x-8 tw-shadow-md tw-p-1 h-fit tw-bg-center tw-bg-cover tw-bg-[url('/images/faded-waves.jpg')] tw-max-w-5xl tw-mx-auto">
-      <img src="/images/1st.png" alt="woman smilling" />
-      <div class="tw-flex tw-flex-wrap tw-flex-col tw-items-center tw-justify-center tw-text-center">
-        <div>
-          <p class="tw-font-bold tw-capitalize tw-text-2xl">
-            Flexible, Powerful and Easy!
-          </p>
-          <p class="tw-max-w-xs tw-text-tw-justify">
-            MyDHL+ makes it easier than ever to ship online, get quotes,
-            schedule pickups, find locations, track shipments and more!
-          </p>
+            </div>
+          </div>
+          <div class="tw-rounded-sm tw-overflow-hidden tw-w-full tw-shadow-md">
+            <div class="tw-h-[200px] tw-bg-gray-400">
+              <img src="/images/rail-5.jpeg" class="tw-w-full tw-h-full tw-object-center tw-object-cover" />
+            </div>
+            <div class="tw-h-2/4 tw-py-10 tw-px-5">
+              <h3 class="tw-text-gray-700 tw-text-sm">A range of flexible Rail and Multimodal transport solutions at a cost efficient rate
+                including a suite of value added services ensure that you receive the quality service you expect
+                from DHL</h3>
+
+            </div>
+          </div>
+          <div class="tw-rounded-sm tw-overflow-hidden tw-w-full tw-shadow-md">
+            <div class="tw-h-[200px] tw-bg-gray-400">
+              <img src="/images/rail-3.jpeg" class="tw-w-full tw-h-full tw-object-center tw-object-cover" />
+            </div>
+            <div class="tw-h-2/4 tw-py-10 tw-px-5 ">
+              <h3 class="tw-text-gray-700 tw-text-sm">Environment-friendly; helping you to meet your environmental responsibility
+                commitments</h3>
+
+            </div>
+          </div>
         </div>
-        <!-- list if things which are here -->
-        <div class="tw-flex tw-mt-4 tw-h-[90px] tw-shadow-md">
-          <a href="#" class="tw-p-2 tw-h-full tw-group tw-flex tw-flex-col tw-bg-neutral-100 tw-text-primary hover:tw-shadow-xl">
-            <svg class="tw-fill-gray-500 tw-group-hover:tw-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <title>package-variant-closed-check</title>
-              <path d="M12 2C11.8 2 11.6 2.1 11.4 2.2L3.5 6.6C3.2 6.8 3 7.1 3 7.5V16.5C3 16.9 3.2 17.2 3.5 17.4L11.4 21.8C11.6 21.9 11.8 22 12 22S12.4 21.9 12.6 21.8L13.5 21.3C13.2 20.7 13.1 20 13 19.3V12.6L19 9.2V13C19.7 13 20.4 13.1 21 13.3V7.5C21 7.1 20.8 6.8 20.5 6.6L12.6 2.2C12.4 2.1 12.2 2 12 2M12 4.2L18 7.5L16 8.6L10.1 5.2L12 4.2M8.1 6.3L14 9.8L12 10.9L6 7.5L8.1 6.3M5 9.2L11 12.6V19.3L5 15.9V9.2M21.3 15.8L17.7 19.4L16.1 17.8L15 19L17.8 22L22.6 17.2L21.3 15.8Z" />
-            </svg>
-            <p>create shipment</p>
-          </a>
-          <a href="#" class="tw-p-2 tw-h-full tw-group tw-flex tw-flex-col tw-bg-neutral-100 tw-text-primary hover:tw-shadow-xl">
-            <svg class="tw-fill-gray-500 tw-group-hover:tw-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <title>account-tie</title>
-              <path d="M12 3C14.21 3 16 4.79 16 7S14.21 11 12 11 8 9.21 8 7 9.79 3 12 3M16 13.54C16 14.6 15.72 17.07 13.81 19.83L13 15L13.94 13.12C13.32 13.05 12.67 13 12 13S10.68 13.05 10.06 13.12L11 15L10.19 19.83C8.28 17.07 8 14.6 8 13.54C5.61 14.24 4 15.5 4 17V21H20V17C20 15.5 18.4 14.24 16 13.54Z" />
-            </svg>
-            <p>create a login</p>
-          </a>
-          <a href="#" class="tw-p-2 tw-h-full tw-group tw-flex tw-flex-col tw-bg-neutral-100 tw-text-primary hover:tw-shadow-xl">
-            <svg class="tw-fill-gray-500 tw-group-hover:tw-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <title>search-web</title>
-              <path d="M15.5,14L20.5,19L19,20.5L14,15.5V14.71L13.73,14.43C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.43,13.73L14.71,14H15.5M9.5,4.5L8.95,4.53C8.71,5.05 8.34,5.93 8.07,7H10.93C10.66,5.93 10.29,5.05 10.05,4.53C9.87,4.5 9.69,4.5 9.5,4.5M13.83,7C13.24,5.97 12.29,5.17 11.15,4.78C11.39,5.31 11.7,6.08 11.93,7H13.83M5.17,7H7.07C7.3,6.08 7.61,5.31 7.85,4.78C6.71,5.17 5.76,5.97 5.17,7M4.5,9.5C4.5,10 4.58,10.53 4.73,11H6.87L6.75,9.5L6.87,8H4.73C4.58,8.47 4.5,9 4.5,9.5M14.27,11C14.42,10.53 14.5,10 14.5,9.5C14.5,9 14.42,8.47 14.27,8H12.13C12.21,8.5 12.25,9 12.25,9.5C12.25,10 12.21,10.5 12.13,11H14.27M7.87,8L7.75,9.5L7.87,11H11.13C11.21,10.5 11.25,10 11.25,9.5C11.25,9 11.21,8.5 11.13,8H7.87M9.5,14.5C9.68,14.5 9.86,14.5 10.03,14.47C10.28,13.95 10.66,13.07 10.93,12H8.07C8.34,13.07 8.72,13.95 8.97,14.47L9.5,14.5M13.83,12H11.93C11.7,12.92 11.39,13.69 11.15,14.22C12.29,13.83 13.24,13.03 13.83,12M5.17,12C5.76,13.03 6.71,13.83 7.85,14.22C7.61,13.69 7.3,12.92 7.07,12H5.17Z" />
-            </svg>
-            <p>About MYDHL+</p>
-          </a>
-          <a href="#" class="tw-p-2 tw-h-full tw-group tw-flex tw-flex-col tw-bg-neutral-100 tw-text-primary hover:tw-shadow-xl">
-            <svg class="tw-fill-gray-500 tw-group-hover:tw-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <title>cog</title>
-              <path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" />
-            </svg>
-            <p>whats new</p>
-          </a>
+      </section>
+      <section class="tw-container tw-mx-auto tw-py-10 tw-px-5">
+        <div class="tw-h-[360px] tw-w-full tw-relative">
+          <div class="tw-bg-gray-500 tw-h-full tw-w-full">
+            <img src="/images/rail-contact.jpg" alt="" class="tw-h-full tw-w-full tw-object-center tw-object-cover">
+          </div>
+          <div class="md:tw-absolute tw-inset-0 tw-grid md:tw-place-items-center tw-py-5">
+            <div class="md:tw-text-center tw-space-y-5 md:tw-text-white">
+              <h2 class="tw-font-bold tw-text-3xl">GET IN TOUCH </h2>
+              <h3 class="tw-text-2xl">FOR RAIL FREIGHT INQUIRIES</h3>
+              <button class="tw-bg-primary tw-text-white tw-px-4 tw-py-2 tw-rounded-sm tw-w-full">Between Europe - Asia
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-
-    <!-- 2nd swiper section -->
-    <div class="lg:tw-my-10 tw-max-w-6xl tw-mx-auto">
-      <div class="swiper swiper_2">
-        <!-- Additional required wrapper -->
-        <div id="secondSwipper" class="swiper-wrapper tw-py-5 tw-flex tw-items-center tw-justify-center">
-          <!-- Slides -->
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-scrollbar tw-hidden"></div>
-      </div>
-    </div>
-
-    <!-- last section -->
-
-    <div class="tw-max-w-6xl tw-border-2 tw-border-black  tw-space-y-4 tw-shadow-xl tw-rounded-md tw-p-4 tw-mx-auto">
-      <div>
-        <h1 class="tw-font-bold tw-text-lg">
-          Express Delivery Services and International Shipping
-        </h1>
-        <p class="tw-text-sm">Fast. Door-to-Door. Courier Delivered.</p>
-      </div>
-      <p class="tw-text-xs">
-        When you ship with DHL Express – you’re shipping with specialists in
-        international shipping and courier delivery services! With our wide
-        range of express parcel and package services, along with shipping and
-        tracking solutions to fit your needs – DHL Express can deliver!
-      </p>
-    </div>
+      </section>
+    </section>
+    <script>
+      const readmore = document.querySelectorAll('#readmore')
+      readmore.forEach(read => {
+        read.addEventListener('click', () => {
+          read.nextElementSibling.classList.toggle('tw-hidden')
+          read.children[1].classList.toggle('tw-rotate-180')
+        })
+      })
+    </script>
 
     <!--Team Section-->
     <!-- <section class="team-section">
@@ -814,6 +682,7 @@ global $mysqli;
                 <ul>
                   <li><a href="air.php">Air Transportation</a></li>
                   <li><a href="marine.php">Marine Transportation</a></li>
+                  <li><a href="rail.php">Rail Transportation</a></li>
                   <li><a href="trucking.php">Trucking</a></li>
                   <li><a href="moving.php">Moving & Storage</a></li>
                 </ul>
@@ -932,57 +801,6 @@ global $mysqli;
   <script src="js/owl.js"></script>
   <script src="js/wow.js"></script>
   <script src="js/script.js"></script>
-  <script src="js/parcel.js"></script>
-  <script>
-    const swiper = new Swiper(".swiper_1", {
-      // Optional parameters
-      direction: "horizontal",
-      loop: true,
-      centeredSlides: true,
-
-      // If we need pagination
-      pagination: {
-        el: ".swiper-pagination",
-      },
-
-      // Navigation arrows
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-
-      // And if we need scrollbar
-      scrollbar: {
-        el: ".swiper-scrollbar",
-      },
-    });
-
-    const swiper2 = new Swiper(".swiper_2", {
-      // Optional parameters
-      slidesPerView: "auto",
-      centeredSlides: true,
-      loop: true,
-      breakpoints: {
-        // when window width is >= 320px
-        700: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        // when window width is >= 480px
-        1000: {
-          centeredSlides: true,
-          slidesPerView: 3,
-          spaceBetween: 20,
-        },
-      },
-
-      // Navigation arrows
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
 
   <script type="text/javascript" src="../maps.googleapis.com/maps/api/js7df2?key=AIzaSyCgnVwnUqhC0aLNvLfs1X7IubprKjTXr3A&amp;libraries=places"></script>
 

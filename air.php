@@ -1,8 +1,8 @@
 <?php
 
-// include 'admin/pages/config.php';
+include 'admin/pages/config.php';
 
-// global $mysqli;
+global $mysqli;
 
 
 
@@ -148,6 +148,7 @@
                     <ul>
                       <li><a href="air.php">Air Transportation</a></li>
                       <li><a href="marine.php">Marine Transportation</a></li>
+                      <li><a href="rail.php">Rail Transportation</a></li>
                       <li><a href="trucking.php">Trucking</a></li>
                       <li><a href="moving.php">Moving & Storage</a></li>
                     </ul>
@@ -194,6 +195,7 @@
                   <li class="dropdown"><a href="service.php">Services</a>
                     <ul>
                       <li><a href="air.php">Air Transportation</a></li>
+                      <li><a href="rail.php">Rail Transportation</a></li>
                       <li><a href="marine.php">Marine Transportation</a></li>
                       <li><a href="trucking.php">Trucking</a></li>
                       <li><a href="moving.php">Moving & Storage</a></li>
@@ -768,6 +770,7 @@
                 <ul>
                   <li><a href="air.php">Air Transportation</a></li>
                   <li><a href="marine.php">Marine Transportation</a></li>
+                  <li><a href="rail.php">Rail Transportation</a></li>
                   <li><a href="trucking.php">Trucking</a></li>
                   <li><a href="moving.php">Moving & Storage</a></li>
                 </ul>

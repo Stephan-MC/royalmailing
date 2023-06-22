@@ -1,12 +1,8 @@
 <?php
 
-// include 'admin/pages/config.php';
+include 'admin/pages/config.php';
 
-// global $mysqli;
-
-
-
-
+global $mysqli;
 ?>
 <!DOCTYPE html>
 <html style="font-size: 16px">
