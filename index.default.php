@@ -16,7 +16,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 <meta charset="utf-8">
-<title>Royal Mailing | Home</title>
+<title>Global Shipping | Home</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/revolution-slider.css" rel="stylesheet">
@@ -49,7 +49,7 @@
                 <!--Top Left-->
                 <div class="top-left pull-left">
                     <ul class="links-nav clearfix">
-                        <li><a href="index.php">Welcome to Royal Mailing</a></li>
+                        <li><a href="index.php">Welcome to Global Shipping</a></li>
                     </ul>
                 </div>
                 
@@ -98,7 +98,7 @@
                         <div class="upper-column info-box">
                             <div class="icon-box"><span class="flaticon-envelope-1"></span></div>
                             <ul>
-                                <li><strong>info@royalmailing.com</strong></li>
+                                <li><strong>globalshippingnetworks@gmail.com</strong></li>
                             </ul>
                         </div>
                         
@@ -106,7 +106,7 @@
                         <div class="upper-column info-box">
                             <div class="icon-box"><span class="flaticon-location"></span></div>
                             <ul>
-                                <li style="padding-left: 10px;"><strong>Dublin, Ireland</strong></li>
+                                <li style="padding-left: 10px;"><strong>Vickers St, San Diego</strong></li>
                             </ul>
                         </div>
                         
@@ -137,7 +137,7 @@
                         
                         <div class="navbar-collapse collapse clearfix">
                             <ul class="navigation clearfix">
-                                <li><a href="index-2.php">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li><a href="tracking.php">Track & Trace Shipment</a></li>
                                 <li class="dropdown"><a href="service.php">Services</a>
                                     <ul>
@@ -184,7 +184,7 @@
                         
                         <div class="navbar-collapse collapse clearfix">
                             <ul class="navigation clearfix">
-                                <li><a href="index-2.php">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li><a href="tracking.php">Track & Trace Shipment</a></li>
                                 <li class="dropdown"><a href="service.php">Services</a>
                                     <ul>
@@ -228,7 +228,7 @@
                     data-elementdelay="0.01"
                     data-endelementdelay="0.3"
                     data-endspeed="1200"
-                    data-endeasing="Power4.easeIn"><div class="italic-text">Royal Mailing</div></div>
+                    data-endeasing="Power4.easeIn"><div class="italic-text">Global Shipping</div></div>
                     
                     <div class="tp-caption sfl sfb tp-resizeme"
                     data-x="left" data-hoffset="15"
@@ -286,7 +286,7 @@
                     data-elementdelay="0.01"
                     data-endelementdelay="0.3"
                     data-endspeed="1200"
-                    data-endeasing="Power4.easeIn"><div class="italic-text">Welcome to Royal Mailing</div></div>
+                    data-endeasing="Power4.easeIn"><div class="italic-text">Welcome to Global Shipping</div></div>
                     
                     <div class="tp-caption sfl sfb tp-resizeme"
                     data-x="left" data-hoffset="15"
@@ -344,7 +344,7 @@
                     data-elementdelay="0.01"
                     data-endelementdelay="0.3"
                     data-endspeed="1200"
-                    data-endeasing="Power4.easeIn"><div class="italic-text">Royal Mailing</div></div>
+                    data-endeasing="Power4.easeIn"><div class="italic-text">Global Shipping</div></div>
                     
                     <div class="tp-caption sfl sfb tp-resizeme"
                     data-x="left" data-hoffset="15"
@@ -409,7 +409,7 @@
                     	<!-- <figure class="image-box"><img src="images/resource/featured-image-1.jpg" alt=""><a class="overlay" href="services-single.php"></a></figure> -->
                         <div class="lower-content">
                         	<h3><a href=".php#">royalmailing is a company that delivers and prides itself on providing the best care to its clients.</a></h3>
-                            <div class="text">Royal Mailing is one of the leading public transportation and logistics companies in Ireland with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Express Delivery Mail to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Express Delivery Mail operations are located in the West and the Group benefits from growing trade volumes between Europe and Asian countries.   
+                            <div class="text">Global Shipping is one of the leading public transportation and logistics companies in Ireland with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Express Delivery Mail to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Express Delivery Mail operations are located in the West and the Group benefits from growing trade volumes between Europe and Asian countries.   
                             </div>
                             <br>
                             <div class="text-center"><a href="about.php" class="theme-btn btn-style-one">Read More <span class="fa fa-caret-right"></span></a></div>
@@ -968,14 +968,14 @@
                             <div class="info-box">
                                 <!-- <div class="desc-text">Lorem ipsum dolor sit amet, placerat corrumpit eum ei. Qui id illum nullam volutpatvix te posse malis virisci.</div> -->
                                 <ul class="contact-info">
-                                    <li><div class="icon"><span class="flaticon-location"></span></div><strong>Location:</strong> Dublin, Ireland</li>
+                                    <li><div class="icon"><span class="flaticon-location"></span></div><strong>Location:</strong> Vickers St, San Diego</li>
                                     
                                     <!-- <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li> -->
-                                    <li><div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> info@royalmailing.com</li>
+                                    <li><div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> globalshippingnetworks@gmail.com</li>
                                     <li><div class="icon"><span class="flaticon-technology-2"></span></div><strong>Phone:</strong> 24/7 Live Support</li>
                                 </ul>
                             </div>

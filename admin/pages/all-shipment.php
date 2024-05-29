@@ -157,9 +157,9 @@ if (!isset($_SESSION['user_id'])) {
                         <?php
 // Connect to MySQL database
 $servername = "localhost";
-$username = "royalmailing_royal";
-$password = "Hitme@2020Admin";
-$dbname = "royalmailing_royal";
+$username = "root";
+$password = "";
+$dbname = "demo";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 

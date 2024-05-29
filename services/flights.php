@@ -17,7 +17,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Royal Mailing | Home</title>
+  <title>Global Shipping | Home</title>
   <!-- Stylesheets -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/revolution-slider.css" rel="stylesheet">
@@ -52,7 +52,7 @@
           <!--Top Left-->
           <div class="top-left pull-left">
             <ul class="links-nav clearfix">
-              <li><a href="index.php">Welcome to Royal Mailing</a></li>
+              <li><a href="index.php">Welcome to Global Shipping</a></li>
             </ul>
           </div>
 
@@ -103,7 +103,7 @@
               <div class="upper-column info-box">
                 <div class="icon-box"><span class="flaticon-envelope-1"></span></div>
                 <ul>
-                  <li><strong>info@royalmailing.com</strong></li>
+                  <li><strong>globalshippingnetworks@gmail.com</strong></li>
                 </ul>
               </div>
 
@@ -111,7 +111,7 @@
               <div class="upper-column info-box">
                 <div class="icon-box"><span class="flaticon-location"></span></div>
                 <ul>
-                  <li style="padding-left: 10px;"><strong>Dublin, Ireland</strong></li>
+                  <li style="padding-left: 10px;"><strong>Vickers St, San Diego</strong></li>
                 </ul>
               </div>
 
@@ -142,7 +142,7 @@
 
               <div class="navbar-collapse collapse clearfix">
                 <ul class="navigation clearfix">
-                  <li><a href="index-2.php">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li><a href="tracking.php">Track & Trace Shipment</a></li>
                   <li class="dropdown"><a href="service.php">Services</a>
                     <ul>
@@ -189,7 +189,7 @@
 
               <div class="navbar-collapse collapse clearfix">
                 <ul class="navigation clearfix">
-                  <li><a href="index-2.php">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li><a href="tracking.php">Track & Trace Shipment</a></li>
                   <li class="dropdown"><a href="service.php">Services</a>
                     <ul>
@@ -223,7 +223,7 @@
               <img src="images/main-slider/slide1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Royal Mailing</div>
+                <div class="italic-text">Global Shipping</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -241,7 +241,7 @@
               <img src="images/main-slider/slide2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Welcome to Royal Mailing</div>
+                <div class="italic-text">Welcome to Global Shipping</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -259,7 +259,7 @@
               <img src="images/main-slider/slide3.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Royal Mailing</div>
+                <div class="italic-text">Global Shipping</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -556,7 +556,7 @@
       <div class="tw-space-y-3 tw-pt-2">
         <h3 class="tw-text-2xl tw-font-black tw-text-center tw-tracking-tight">Thinking Things Over or Unsure of what to do ?</h3>
 
-        <p class="tw-text-center">Get in contact with our Royal Mailing experts to discuss your requirements or find solutions to your worries</p>
+        <p class="tw-text-center">Get in contact with our Global Shipping experts to discuss your requirements or find solutions to your worries</p>
 
         <div class="tw-mt-2 tw-flex tw-flex-col tw-gap-4 [&>button]:tw-py-2 [&>button]:tw-rounded md:tw-flex-row md:tw-justify-center">
           <button class="tw-border-2 tw-border-primary tw-text-primary tw-bg-transparent tw-px-6">Show details</button>
@@ -807,7 +807,7 @@
                   <!-- <div class="desc-text">Lorem ipsum dolor sit amet, placerat corrumpit eum ei. Qui id illum nullam volutpatvix te posse malis virisci.</div> -->
                   <ul class="contact-info">
                     <li>
-                      <div class="icon"><span class="flaticon-location"></span></div><strong>Location:</strong> Dublin, Ireland
+                      <div class="icon"><span class="flaticon-location"></span></div><strong>Location:</strong> Vickers St, San Diego
                     </li>
 
                     <!-- <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
@@ -816,7 +816,7 @@
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li> -->
                     <li>
-                      <div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> info@royalmailing.com
+                      <div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> globalshippingnetworks@gmail.com
                     </li>
                     <li>
                       <div class="icon"><span class="flaticon-technology-2"></span></div><strong>Phone:</strong> 24/7 Live Support

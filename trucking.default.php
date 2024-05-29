@@ -7,7 +7,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 <meta charset="utf-8">
-<title>Royal Mailing | Trucking</title>
+<title>Global Shipping | Trucking</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -40,7 +40,7 @@
                 <!--Top Left-->
                 <div class="top-left pull-left">
                     <ul class="links-nav clearfix">
-                        <li><a href="index.php">Welcome to Royal Mailing</a></li>
+                        <li><a href="index.php">Welcome to Global Shipping</a></li>
                     </ul>
                 </div>
                 
@@ -72,7 +72,7 @@
                 <div class="clearfix">
                     
                     <div class="pull-left logo-outer">
-                        <div class="logo"><a href="index.php"><img src="images/logo.png" alt="Royal Mailing" title="Royal Mailing"></a></div>
+                        <div class="logo"><a href="index.php"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a></div>
                     </div>
                     
                     <div class="pull-right upper-right clearfix">
@@ -89,7 +89,7 @@
                         <div class="upper-column info-box">
                             <div class="icon-box"><span class="flaticon-envelope-1"></span></div>
                             <ul>
-                                <li><strong>info@royalmailing.com</strong></li>
+                                <li><strong>globalshippingnetworks@gmail.com</strong></li>
                             </ul>
                         </div>
                         
@@ -97,7 +97,7 @@
                         <div class="upper-column info-box">
                             <div class="icon-box"><span class="flaticon-location"></span></div>
                             <ul>
-                                <li style="padding-left: 10px;"><strong>Dublin, Ireland</strong></li>
+                                <li style="padding-left: 10px;"><strong>Vickers St, San Diego</strong></li>
                             </ul>
                         </div>
                         
@@ -128,7 +128,7 @@
                         
                         <div class="navbar-collapse collapse clearfix">
                             <ul class="navigation clearfix">
-                                <li><a href="index-2.php">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li><a href="tracking.php">Track & Trace Shipment</a></li>
                                 <li class="dropdown"><a href="service.php">Services</a>
                                     <ul>
@@ -157,7 +157,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index-3.php" class="img-responsive"><img src="images/logo.png" alt="Royal Mailing" title="Royal Mailing"></a>
+                    <a href="index-3.php" class="img-responsive"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a>
                 </div>
                 
                 <!--Right Col-->
@@ -175,7 +175,7 @@
                         
                         <div class="navbar-collapse collapse clearfix">
                             <ul class="navigation clearfix">
-                                <li><a href="index-2.php">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li><a href="tracking.php">Track & Trace Shipment</a></li>
                                 <li class="dropdown"><a href="service.php">Services</a>
                                     <ul>
@@ -209,7 +209,7 @@
     <!--Breadcrumb-->
     <div class="breadcrumb-outer">
     	<div class="auto-container">
-        	<div class="bread-crumb text-center"><a href="index-2.php">Home</a> <span class="fa fa-angle-right"></span> <a href=".php#" class="current">Trucking</a></div>
+        	<div class="bread-crumb text-center"><a href="index.php">Home</a> <span class="fa fa-angle-right"></span> <a href=".php#" class="current">Trucking</a></div>
         </div>
     </div>
     
@@ -231,9 +231,9 @@
                     <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="lower-content">
                             <h3><a href=".php#">Trucking</a></h3>
-                            <div class="text">Royal Mailing provides Dedicated Transportation services across the UK/EUROPE/AFRICA/CANADA/MIDDLE EAST with unparalleled speed and efficiency. We utilize a Dedicated Transport Division which specializes in Private Fleet Solutions to ensure affordable solutions. These solutions include the capability to ship your medium-sized freight or large palletized items in a wide range of equipment. 
+                            <div class="text">Global Shipping provides Dedicated Transportation services across the UK/EUROPE/AFRICA/CANADA/MIDDLE EAST with unparalleled speed and efficiency. We utilize a Dedicated Transport Division which specializes in Private Fleet Solutions to ensure affordable solutions. These solutions include the capability to ship your medium-sized freight or large palletized items in a wide range of equipment. 
                             </div>
-                            <div class="text">Be a name, not a number. You deserve to be part of a company that has a family atmosphere that values you and your contribution as an over-the-road truck driver. The Royal Mailing family culture stands for doing the right thing to ensure the best for our employees. This goes from how you are compensated, to how you are treated.
+                            <div class="text">Be a name, not a number. You deserve to be part of a company that has a family atmosphere that values you and your contribution as an over-the-road truck driver. The Global Shipping family culture stands for doing the right thing to ensure the best for our employees. This goes from how you are compensated, to how you are treated.
                             </div>
                         </div>
                     </div>
@@ -275,7 +275,7 @@
                         <div class="footer-widget about-widget">
                             <h2>About Us</h2>
                             <div class="text">
-                            	<p>Royal Mailing is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Royal Mailing to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Royal Mailing operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
+                            	<p>Global Shipping is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Global Shipping to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Global Shipping operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
                             </div>
                             
                         </div>
@@ -326,14 +326,14 @@
                             <div class="info-box">
                                 <!-- <div class="desc-text">Lorem ipsum dolor sit amet, placerat corrumpit eum ei. Qui id illum nullam volutpatvix te posse malis virisci.</div> -->
                                 <ul class="contact-info">
-                                    <li><div class="icon"><span class="flaticon-location"></span></div><strong>Location:</strong> Dublin, Ireland</li>
+                                    <li><div class="icon"><span class="flaticon-location"></span></div><strong>Location:</strong> Vickers St, San Diego</li>
                                     
                                     <!-- <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li> -->
-                                    <li><div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> info@royalmailing.com</li>
+                                    <li><div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> globalshippingnetworks@gmail.com</li>
                                     <li><div class="icon"><span class="flaticon-technology-2"></span></div><strong>Phone:</strong> 24/7 Live Support</li>
                                 </ul>
                             </div>
@@ -362,7 +362,7 @@
                 <div class="outer-box clearfix">
                     <!--Copyright-->
                 	<div class="pull-left">
-                    	<div class="copyright">&copy; Copyrights 2019 <a href=".php#" target="_blank" style="color: #ffa400;">Royal Mailing</a>. All rights reserved</div>
+                    	<div class="copyright">&copy; Copyrights 2019 <a href=".php#" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
                     </div>
                     <!--Social Links-->
                     <div class="pull-right">

@@ -14,7 +14,7 @@ global $mysqli;
 
 <head>
   <meta charset="utf-8">
-  <title>Royal Mailing | Home</title>
+  <title>Global Shipping | Home</title>
   <!-- Stylesheets -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/revolution-slider.css" rel="stylesheet">
@@ -44,39 +44,7 @@ global $mysqli;
     <!-- Main Header-->
     <header class="main-header">
       <!-- Header Top -->
-      <div class="header-top">
-        <div class="auto-container clearfix">
-          <!--Top Left-->
-          <div class="top-left pull-left">
-            <ul class="links-nav clearfix">
-              <li><a href="index.php">Welcome to Royal Mailing</a></li>
-            </ul>
-          </div>
-
-          <!--Top Right-->
-          <div class="top-right pull-right">
-            <ul class="links-nav clearfix">
-              <li><a href="tracking.php">Track & Trace Shipment</a></li>
-              <li><a href="contact.php">Contact Us</a></li>
-              <li><a href="about.php">About Us</a></li>
-              <li>
-                <div id="google_translate_element"></div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-12 col-sm-12" style="margin-top: 10px;">
-            <form role="form" action='tracking.php' method="POST">
-              <div class="input-group">
-                <input type="text" class="form-control" autocomplete="on" name="tracking" placeholder="Track your shipment now" style="height:50px;">
-                <span class="input-group-btn">
-                  <button class="btn btn-primary" name="track" type="submit" style="height:50px; font-size: 15px;">TRACK</button>
-                </span>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div><!-- Header Top End -->
-
+     
       <!--Header-Upper-->
       <div class="header-upper">
         <div class="auto-container">
@@ -96,19 +64,13 @@ global $mysqli;
                 </ul>
               </div>
 
-              <!--Info Box-->
-              <div class="upper-column info-box">
-                <div class="icon-box"><span class="flaticon-envelope-1"></span></div>
-                <ul>
-                  <li><strong>info@royalmailing.com</strong></li>
-                </ul>
-              </div>
+        
 
               <!--Info Box-->
               <div class="upper-column info-box">
                 <div class="icon-box"><span class="flaticon-location"></span></div>
                 <ul>
-                  <li style="padding-left: 10px;"><strong>Dublin, Ireland</strong></li>
+                  <li style="padding-left: 10px;"><strong>Vickers St, San Diego</strong></li>
                 </ul>
               </div>
 
@@ -139,7 +101,7 @@ global $mysqli;
 
               <div class="navbar-collapse collapse clearfix">
                 <ul class="navigation clearfix">
-                  <li><a href="index-2.php">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li><a href="tracking.php">Track & Trace Shipment</a></li>
                   <li class="dropdown"><a href="service.php">Services</a>
                     <ul>
@@ -187,7 +149,7 @@ global $mysqli;
 
               <div class="navbar-collapse collapse clearfix">
                 <ul class="navigation clearfix">
-                  <li><a href="index-2.php">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li><a href="tracking.php">Track & Trace Shipment</a></li>
                   <li class="dropdown"><a href="service.php">Services</a>
                     <ul>
@@ -222,7 +184,7 @@ global $mysqli;
               <img src="images/main-slider/slide1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Royal Mailing</div>
+                <div class="italic-text">Global Shipping</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -240,7 +202,7 @@ global $mysqli;
               <img src="images/main-slider/slide2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Welcome to Royal Mailing</div>
+                <div class="italic-text">Welcome to Global Shipping</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -258,7 +220,7 @@ global $mysqli;
               <img src="images/main-slider/slide3.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Royal Mailing</div>
+                <div class="italic-text">Global Shipping</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -317,7 +279,7 @@ global $mysqli;
           </svg>
           <h4 class="tw-text-3xl tw-font-bold tw-text-primary tw-text-center">Quality Control</h4>
           <hr class="tw-my-4" />
-          <p>Royal mailings Ocean Freight shipments include a wide range of quality controlled equipment types. We strive for on time deliverability and provide end-to-end visibility.</p>
+          <p>Global Shippings Ocean Freight shipments include a wide range of quality controlled equipment types. We strive for on time deliverability and provide end-to-end visibility.</p>
         </div>
       </div>
     </section>
@@ -644,7 +606,7 @@ global $mysqli;
                   <!-- <div class="desc-text">Lorem ipsum dolor sit amet, placerat corrumpit eum ei. Qui id illum nullam volutpatvix te posse malis virisci.</div> -->
                   <ul class="contact-info">
                     <li>
-                      <div class="icon"><span class="flaticon-location"></span></div><strong>Location:</strong> Dublin, Ireland
+                      <div class="icon"><span class="flaticon-location"></span></div><strong>Location:</strong> Vickers St, San Diego
                     </li>
 
                     <!-- <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
@@ -653,7 +615,7 @@ global $mysqli;
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li> -->
                     <li>
-                      <div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> info@royalmailing.com
+                      <div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> globalshippingnetworks@gmail.com
                     </li>
                     <li>
                       <div class="icon"><span class="flaticon-technology-2"></span></div><strong>Phone:</strong> 24/7 Live Support

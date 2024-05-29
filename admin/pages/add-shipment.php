@@ -118,7 +118,7 @@ if (!isset($_SESSION['user_id'])) {
                         <div class="panel-body">
 
                             <!-- form start -->
-                            <form action='/admin/pages/process-add.php' method="POST" enctype="multipart/form-data">
+                            <form action='process-add.php' method="POST" enctype="multipart/form-data">
 
                                 <div class="row">    
                                     <div class="col-lg-6">

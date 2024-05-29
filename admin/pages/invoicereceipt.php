@@ -7,7 +7,7 @@
 <head>
 	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
 	
-	<title>Royal Mailing Invoice</title>
+	<title>Global Shipping Invoice</title>
 	
 	<link rel='stylesheet' type='text/css' href='css/style.css' />
 	<link rel='stylesheet' type='text/css' href='css/print.css' media="print" />
@@ -27,9 +27,9 @@
 		
 		<div id="identity">
 		
-            <textarea id="address">Royal Mailing
+            <textarea id="address">Global Shipping
 San Diego, CA, USA
-Email: info@royalmailing.comm
+Email: globalshippingnetworks@gmail.comm
 Phone: +1 (925) 626-0338
            </textarea>
 

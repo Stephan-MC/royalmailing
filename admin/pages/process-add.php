@@ -1,9 +1,9 @@
 <?php
 
 $servername = "localhost";
-$username = "royalmailing_royal";
-$password = "Hitme@2020Admin";
-$dbname = "royalmailing_royal";
+$username = "root";
+$password = "";
+$dbname = "demo";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
@@ -62,6 +62,17 @@ $sql = "INSERT INTO shipment (
     '$sender_phone', '$sender_street', '$sender_city', '$sender_country', '$receiver_name',
     '$receiver_email', '$receiver_city', '$receiver_country', '$receiver_contact' ,'$product_name' ,'$receiver_hphone'
 )";
+$message1="
+
+Dear $receiver_name,
+
+I hope this email finds you well.
+
+I wanted to let you know that your order has been shipped. You can track your package using the following tracking number:$trackin_number.
+
+To track your shipment, please visit [Courier's Tracking Website] and enter the tracking number provided.";
+echo sendEmail($receiver_email, $message1);
+
 $result = mysqli_query($conn, $sql);
 
 $sqll = "INSERT INTO shipment_process(trakin_number,current_location,status,reason,date, time) VALUES('$trackin_number',
@@ -87,4 +98,24 @@ if ($result ) {
 }
 
 mysqli_close($conn);
+
+
+
+function sendEmail($to, $message) {
+    // Subject of the email
+    $subject = "Your Order Tracking Information";
+
+    // Headers
+    $headers = "From: no-reply@yourdomain.com\r\n";
+    $headers .= "Reply-To: no-reply@yourdomain.com\r\n";
+    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+    // Sending the email
+    if(mail($to, $subject, $message, $headers)) {
+        return "Email sent successfully to $to.";
+    } else {
+        return "Failed to send email.";
+    }
+}
+
 ?>

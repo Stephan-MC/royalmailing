@@ -18,9 +18,9 @@ if (!isset($_SESSION['user_id'])) {
 
     // Establish a connection to the database
     $dbhost = 'localhost';     // replace with your database host name
-    $dbuser = 'royalmailing_royal';          // replace with your database username
-    $dbpass = 'Hitme@2020Admin';      // replace with your database password
-    $dbname = 'royalmailing_royal';    // replace with your database name
+    $dbuser = 'root';          // replace with your database username
+    $dbpass = '';      // replace with your database password
+    $dbname = 'demo';    // replace with your database name
     $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
@@ -163,7 +163,7 @@ if (!isset($_SESSION['user_id'])) {
                         <div class="panel-body">
 
                             <!-- form start -->
-                            <form action='/admin/pages/process-edit.php' method="POST" enctype="multipart/form-data">
+                            <form action='process-edit.php' method="POST" enctype="multipart/form-data">
                                 <input type="hidden" value="<?= $shipment['trackin_number'] ?>" name="trackin_number" />
                                 <input type="hidden" value="<?= $shipment['id'] ?>" name="id" />
 

@@ -30,7 +30,7 @@ if(isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] == true){
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Login | Royal Mailing</title>
+    <title>Login | Global Shipping</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
@@ -66,7 +66,7 @@ if(isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] == true){
                     <?php if ($login_error != "") { ?>
         <div class="alert alert-danger"><?php echo $login_error; ?></div>
                         <?php } ?>
-                        <form action="/admin/pages/process_login.php" method="POST">
+                        <form action="process_login.php" method="POST">
                             <fieldset>
                                 <div class="form-group">
                                     <input class="form-control" placeholder="username" name="username" type="text" autofocus>

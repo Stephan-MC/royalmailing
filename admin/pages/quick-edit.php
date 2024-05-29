@@ -13,9 +13,9 @@
 
     // Establish a connection to the database
     $dbhost = 'localhost';     // replace with your database host name
-    $dbuser = 'royalmailing_royal';          // replace with your database username
-    $dbpass = 'Hitme@2020Admin';      // replace with your database password
-    $dbname = 'royalmailing_royal';    // replace with your database name
+    $dbuser = 'root';          // replace with your database username
+    $dbpass = '';      // replace with your database password
+    $dbname = 'demo';    // replace with your database name
     $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);

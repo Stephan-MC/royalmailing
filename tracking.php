@@ -37,7 +37,7 @@ $trackings = [
 
 <head>
     <meta charset="utf-8">
-    <title>Royal Mailing| Track & Trace Shipment</title>
+    <title>Global Shipping| Track & Trace Shipment</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
@@ -219,7 +219,7 @@ $trackings = [
                     <!--Top Left-->
                     <div class="top-left pull-left">
                         <ul class="links-nav clearfix">
-                            <li><a href="index.php">Welcome to Royal Mailing</a></li>
+                            <li><a href="index.php">Welcome to Global Shipping</a></li>
                         </ul>
                     </div>
 
@@ -238,7 +238,7 @@ $trackings = [
                     <div class="col-md-12 col-sm-12" style="margin-top: 10px;">
                         <form role="form" action='' method="POST">
                             <div class="input-group">
-                                <input type="text" class="form-control <?= $error ? 'border-danger' : '' ?>" autocomplete="on" name="tracking" placeholder="Track your shipment now" style="height:50px;">
+                                <input type="number" inputmode="numeric" class="form-control <?= $error ? 'border-danger' : '' ?>" autocomplete="on" name="tracking" placeholder="Track your shipment now" style="height:50px;">
                                 <span class="input-group-btn">
                                     <button class="btn btn-warning" type="submit" name="track" type="submit" style="height:50px; font-size: 15px;">TRACK</button>
                                 </span>
@@ -254,7 +254,7 @@ $trackings = [
                     <div class="clearfix">
 
                         <div class="pull-left logo-outer">
-                            <div class="logo"><a href="index.php"><img src="images/logo.png" alt="Royal Mailing" title="Royal Mailing"></a></div>
+                            <div class="logo"><a href="index.php"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a></div>
                         </div>
 
                         <div class="pull-right upper-right clearfix">
@@ -271,7 +271,7 @@ $trackings = [
                             <div class="upper-column info-box">
                                 <div class="icon-box"><span class="flaticon-envelope-1"></span></div>
                                 <ul>
-                                    <li><strong>info@royalmailing.com</strong></li>
+                                    <li><strong>globalshippingnetworks@gmail.com</strong></li>
                                 </ul>
                             </div>
 
@@ -336,7 +336,7 @@ $trackings = [
                 <div class="auto-container clearfix">
                     <!--Logo-->
                     <div class="logo pull-left">
-                        <a href="index-3.php" class="img-responsive"><img src="images/logo.png" alt="Royal Mailing" title="Royal Mailing"></a>
+                        <a href="index-3.php" class="img-responsive"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a>
                     </div>
 
                     <!--Right Col-->
@@ -354,7 +354,7 @@ $trackings = [
 
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li><a href="index-2.php">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     <li><a href="tracking.php">Track & Trace Shipment</a></li>
                                     <li class="dropdown"><a href="service.php">Services</a>
                                         <ul>
@@ -389,7 +389,7 @@ $trackings = [
         <!--Breadcrumb-->
         <div class="breadcrumb-outer">
             <div class="auto-container">
-                <div class="bread-crumb text-center"><a href="index-2.php">Home</a> <span class="fa fa-angle-right"></span> <a href="#" class="current">Track & Trace Shipment</a></div>
+                <div class="bread-crumb text-center"><a href="index.php">Home</a> <span class="fa fa-angle-right"></span> <a href="#" class="current">Track & Trace Shipment</a></div>
             </div>
         </div>
 
@@ -589,9 +589,9 @@ $trackings = [
                             <?php
                             // Connect to MySQL database
                             $servername = "localhost";
-                            $username = "royalmailing_royal";
-                            $password = "Hitme@2020Admin";
-                            $dbname = "royalmailing_royal";
+                            $username = "root";
+                            $password = "";
+                            $dbname = "demo";
 
                             $conn = mysqli_connect($servername, $username, $password, $dbname);
 
@@ -687,7 +687,7 @@ $trackings = [
                             <div class="footer-widget about-widget">
                                 <h2>About Us</h2>
                                 <div class="text">
-                                    <p>Royal Mailingis one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Royal Mailingto provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Royal Mailingoperations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
+                                    <p>Global Shippingis one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Global Shippingto provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Global Shippingoperations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
                                 </div>
 
                             </div>
@@ -748,7 +748,7 @@ $trackings = [
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li> -->
                                         <li>
-                                            <div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> info@royalmailing.com
+                                            <div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> globalshippingnetworks@gmail.com
                                         </li>
                                         <li>
                                             <div class="icon"><span class="flaticon-technology-2"></span></div><strong>Phone:</strong> 24/7 Live Support
@@ -780,7 +780,7 @@ $trackings = [
                     <div class="outer-box clearfix">
                         <!--Copyright-->
                         <div class="pull-left">
-                            <div class="copyright">&copy; Copyrights 2019 <a href=".php#" target="_blank" style="color: #ffa400;">Royal Mailing</a>. All rights reserved</div>
+                            <div class="copyright">&copy; Copyrights 2019 <a href=".php#" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
                         </div>
                         <!--Social Links-->
                         <div class="pull-right">

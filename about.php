@@ -7,7 +7,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 <meta charset="utf-8">
-<title>Royal mailing | About Us</title>
+<title>Global Shipping | About Us</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -39,7 +39,7 @@
                 <!--Top Left-->
                 <div class="top-left pull-left">
                     <ul class="links-nav clearfix">
-                        <li><a href="index.php">Welcome to Royal mailing</a></li>
+                        <li><a href="index.php">Welcome to Global Shipping</a></li>
                     </ul>
                 </div>
                 
@@ -71,7 +71,7 @@
                 <div class="clearfix">
                     
                     <div class="pull-left logo-outer">
-                        <div class="logo"><a href="index.php"><img src="images/logo.png" alt="Royal mailing" title="Royal mailing"></a></div>
+                        <div class="logo"><a href="index.php"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a></div>
                     </div>
                     
                     <div class="pull-right upper-right clearfix">
@@ -88,7 +88,7 @@
                         <div class="upper-column info-box">
                             <div class="icon-box"><span class="flaticon-envelope-1"></span></div>
                             <ul>
-                                <li><strong>info@royalmailing.com</strong></li>
+                                <li><strong>globalshippingnetworks@gmail.com</strong></li>
                             </ul>
                         </div>
                         
@@ -96,7 +96,7 @@
                         <div class="upper-column info-box">
                             <div class="icon-box"><span class="flaticon-location"></span></div>
                             <ul>
-                                <li style="padding-left: 10px;"><strong>Dublin, Ireland</strong></li>
+                                <li style="padding-left: 10px;"><strong>Vickers St, San Diego</strong></li>
                             </ul>
                         </div>
                         
@@ -127,7 +127,7 @@
                         
                         <div class="navbar-collapse collapse clearfix">
                             <ul class="navigation clearfix">
-                                <li><a href="index-2.php">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li><a href="tracking.php">Track & Trace Shipment</a></li>
                                 <li class="dropdown"><a href="service.php">Services</a>
                                     <ul>
@@ -156,7 +156,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index-3.php" class="img-responsive"><img src="images/logo.png" alt="Royal mailing" title="Royal mailing"></a>
+                    <a href="index-3.php" class="img-responsive"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a>
                 </div>
                 
                 <!--Right Col-->
@@ -174,7 +174,7 @@
                         
                         <div class="navbar-collapse collapse clearfix">
                             <ul class="navigation clearfix">
-                                <li><a href="index-2.php">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li><a href="tracking.php">Track & Trace Shipment</a></li>
                                 <li class="dropdown"><a href="service.php">Services</a>
                                     <ul>
@@ -207,7 +207,7 @@
     <!--Breadcrumb-->
     <div class="breadcrumb-outer">
     	<div class="auto-container">
-        	<div class="bread-crumb text-center"><a href="index-2.php">Home</a> <span class="fa fa-angle-right"></span> <a href="#" class="current">About Us</a></div>
+        	<div class="bread-crumb text-center"><a href="index.php">Home</a> <span class="fa fa-angle-right"></span> <a href="#" class="current">About Us</a></div>
         </div>
     </div>
     
@@ -231,11 +231,11 @@
                     
                     <!-- <div class="featured-text">Lorem ipsum dolor sit amet, <strong>pro ne honestatis sadipscing</strong>, detraxit salutatus ne mei. Omnis labores eos ne, scripta facilisi dissentias mel ex, ex vis semper adolescens delicatissimi.</div> -->
                     <div class="text">
-                    	<p>Royal mailing is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Royal mailing to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Royal mailing operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries.</p>
+                    	<p>Global Shipping is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Global Shipping to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Global Shipping operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries.</p>
 
-                        <p>Royal mailing is the leader of container transportation through the East through international sea container lines to/from Asian countries, domestic sea container lines and by rail. Royal mailing is the leading port container operator in the East region. Royal mailing controls the Commercial Ports which have throughout a capacity of 3.9 million tons of general cargo and oil products, 150,000 vehicles and over 600,000 TEU of containers. Royal mailing is among the top largest American private rail operators. We operates a fleet of over 16.2 thousand units of rolling stock. Royal mailing has a fleet of 20 vessels, mostly deployed through own sea service lines.
+                        <p>Global Shipping is the leader of container transportation through the East through international sea container lines to/from Asian countries, domestic sea container lines and by rail. Global Shipping is the leading port container operator in the East region. Global Shipping controls the Commercial Ports which have throughout a capacity of 3.9 million tons of general cargo and oil products, 150,000 vehicles and over 600,000 TEU of containers. Global Shipping is among the top largest American private rail operators. We operates a fleet of over 16.2 thousand units of rolling stock. Global Shipping has a fleet of 20 vessels, mostly deployed through own sea service lines.
 
-                        <p>Royal mailing. Safe Hands - Safe Journey</p>
+                        <p>Global Shipping. Safe Hands - Safe Journey</p>
                     </div>
                     
                     <ul class="styled-list-one clearfix">
@@ -441,7 +441,7 @@
                         <div class="single-item-carousel testimonial-carousel">
                             <!--Slide Item-->
                             <div class="slide-item">
-                                <div class="content-box">I want to thank you soo much for keeping your word. All went well and Now I am going to deliver everything through you. Thank you again Royal mailing, I was really impressed.</div>
+                                <div class="content-box">I want to thank you soo much for keeping your word. All went well and Now I am going to deliver everything through you. Thank you again Global Shipping, I was really impressed.</div>
                                 <div class="info-box">
                                     <figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/client1.png" alt=""></figure>
                                     <!-- <h4>FRED</h4> -->
@@ -451,7 +451,7 @@
                             
                             <!--Slide Item-->
                             <div class="slide-item">
-                                <div class="content-box">How amazing how you guys delivered so early. I thought it was going to take time but I was wrong. Thanks so much Royal mailing you are the best I can ever use and ask anyone out there to use.</div>
+                                <div class="content-box">How amazing how you guys delivered so early. I thought it was going to take time but I was wrong. Thanks so much Global Shipping you are the best I can ever use and ask anyone out there to use.</div>
                                 <div class="info-box">
                                     <figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/client2.png" alt=""></figure>
                                     <!-- <h4>CHEWY AND TONTO</h4> -->
@@ -461,7 +461,7 @@
                             
                             <!--Slide Item-->
                             <div class="slide-item">
-                                <div class="content-box">I am amazed. I am now comfortable that my goods can reach me safe, secure and on time. It's really swift and rapid. Thanks to Royal mailing.</div>
+                                <div class="content-box">I am amazed. I am now comfortable that my goods can reach me safe, secure and on time. It's really swift and rapid. Thanks to Global Shipping.</div>
                                 <div class="info-box">
                                     <figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/client3.jpg" alt=""></figure>
                                     <!-- <h4>EVA</h4> -->
@@ -517,7 +517,7 @@
                         <div class="footer-widget about-widget">
                             <h2>About Us</h2>
                             <div class="text">
-                            	<p>Royal mailing is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Royal mailing to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Royal mailing operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
+                            	<p>Global Shipping is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Global Shipping to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Global Shipping operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
                             </div>
                             
                         </div>
@@ -568,14 +568,14 @@
                             <div class="info-box">
                                 <!-- <div class="desc-text">Lorem ipsum dolor sit amet, placerat corrumpit eum ei. Qui id illum nullam volutpatvix te posse malis virisci.</div> -->
                                 <ul class="contact-info">
-                                    <li><div class="icon"><span class="flaticon-location"></span></div><strong>Location:</strong> Dublin, Ireland</li>
+                                    <li><div class="icon"><span class="flaticon-location"></span></div><strong>Location:</strong> Vickers St, San Diego</li>
                                     
                                     <!-- <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li> -->
-                                    <li><div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> info@royalmailing.com</li>
+                                    <li><div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> globalshippingnetworks@gmail.com</li>
                                     <li><div class="icon"><span class="flaticon-technology-2"></span></div><strong>Phone:</strong> 24/7 Live Support</li>
                                 </ul>
                             </div>
@@ -604,7 +604,7 @@
                 <div class="outer-box clearfix">
                     <!--Copyright-->
                 	<div class="pull-left">
-                    	<div class="copyright">&copy; Copyrights 2019 <a href=".php#" target="_blank" style="color: #ffa400;">Royal mailing</a>. All rights reserved</div>
+                    	<div class="copyright">&copy; Copyrights 2019 <a href=".php#" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
                     </div>
                     <!--Social Links-->
                     <div class="pull-right">

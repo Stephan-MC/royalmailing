@@ -17,7 +17,7 @@ global $mysqli;
 
 <head>
   <meta charset="utf-8">
-  <title>Royal Mailing | Home</title>
+  <title>Global Shipping | Home</title>
   <!-- Stylesheets -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/revolution-slider.css" rel="stylesheet">
@@ -55,7 +55,7 @@ global $mysqli;
           <!--Top Left-->
           <div class="top-left pull-left">
             <ul class="links-nav clearfix">
-              <li><a href="index.php">Welcome to Royal Mailing</a></li>
+              <li><a href="index.php">Welcome to Global Shipping</a></li>
             </ul>
           </div>
 
@@ -106,7 +106,7 @@ global $mysqli;
               <div class="upper-column info-box">
                 <div class="icon-box"><span class="flaticon-envelope-1"></span></div>
                 <ul>
-                  <li><strong>info@royalmailing.com</strong></li>
+                  <li><strong>globalshippingnetworks@gmail.com</strong></li>
                 </ul>
               </div>
 
@@ -114,7 +114,7 @@ global $mysqli;
               <div class="upper-column info-box">
                 <div class="icon-box"><span class="flaticon-location"></span></div>
                 <ul>
-                  <li style="padding-left: 10px;"><strong>Dublin, Ireland</strong></li>
+                  <li style="padding-left: 10px;"><strong>Vickers St, San Diego</strong></li>
                 </ul>parcel
               </div>
 
@@ -145,7 +145,7 @@ global $mysqli;
 
               <div class="navbar-collapse collapse clearfix">
                 <ul class="navigation clearfix">
-                  <li><a href="index-2.php">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li><a href="tracking.php">Track & Trace Shipment</a></li>
                   <li class="dropdown"><a href="service.php">Services</a>
                     <ul>
@@ -192,7 +192,7 @@ global $mysqli;
 
               <div class="navbar-collapse collapse clearfix">
                 <ul class="navigation clearfix">
-                  <li><a href="index-2.php">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li><a href="tracking.php">Track & Trace Shipment</a></li>
                   <li class="dropdown"><a href="service.php">Services</a>
                     <ul>
@@ -226,7 +226,7 @@ global $mysqli;
               <img src="images/main-slider/slide1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Royal Mailing</div>
+                <div class="italic-text">Global Shipping</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -244,7 +244,7 @@ global $mysqli;
               <img src="images/main-slider/slide2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Welcome to Royal Mailing</div>
+                <div class="italic-text">Welcome to Global Shipping</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -262,7 +262,7 @@ global $mysqli;
               <img src="images/main-slider/slide3.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Royal Mailing</div>
+                <div class="italic-text">Global Shipping</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -290,7 +290,7 @@ global $mysqli;
       <div class="tw-relative tw-h-full tw-flex tw-justify-center tw-items-center tw-bg-black/40 tw-w-full">
         <div class="tw-flex tw-justify-center md:tw-space-x-20 tw-items-center tw-flex-wrap">
           <p class="tw-text-white sm:tw-max-w-xs tw-text-3xl tw-text-center">
-            Welcome to <span class="tw-font-semibold">Royal Mailing</span> Fast,
+            Welcome to <span class="tw-font-semibold">Global Shipping</span> Fast,
             Door-to-Door, Courier Delivered
           </p>
           <div class="tw-p-3 tw-rounded-md tw-flex tw-flex-col tw-space-y-4 tw-bg-black/40 tw-backdrop-blur-md">
@@ -853,7 +853,7 @@ global $mysqli;
                   <!-- <div class="desc-text">Lorem ipsum dolor sit amet, placerat corrumpit eum ei. Qui id illum nullam volutpatvix te posse malis virisci.</div> -->
                   <ul class="contact-info">
                     <li>
-                      <div class="icon"><span class="flaticon-location"></span></div><strong>Location:</strong> Dublin, Ireland
+                      <div class="icon"><span class="flaticon-location"></span></div><strong>Location:</strong> Vickers St, San Diego
                     </li>
 
                     <!-- <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
@@ -862,7 +862,7 @@ global $mysqli;
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li>
                                     <li><div class="icon"><span class="flaticon-location"></span></div><strong>Branch Office:</strong> </li> -->
                     <li>
-                      <div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> info@royalmailing.com
+                      <div class="icon"><span class="flaticon-envelope-1"></span></div><strong>Email:</strong> globalshippingnetworks@gmail.com
                     </li>
                     <li>
                       <div class="icon"><span class="flaticon-technology-2"></span></div><strong>Phone:</strong> 24/7 Live Support
