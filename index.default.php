@@ -166,7 +166,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index-3.php" class="img-responsive"><img src="images/logo.png" alt="Express Delivery Mail" title="Express Delivery Mail"></a>
+                    <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="Express Delivery Mail" title="Express Delivery Mail"></a>
                 </div>
                 
                 <!--Right Col-->
@@ -408,7 +408,7 @@
                 	<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     	<!-- <figure class="image-box"><img src="images/resource/featured-image-1.jpg" alt=""><a class="overlay" href="services-single.php"></a></figure> -->
                         <div class="lower-content">
-                        	<h3><a href=".php#">royalmailing is a company that delivers and prides itself on providing the best care to its clients.</a></h3>
+                        	<h3><a href=".php#">globalshipping is a company that delivers and prides itself on providing the best care to its clients.</a></h3>
                             <div class="text">Global Shipping is one of the leading public transportation and logistics companies in Ireland with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Express Delivery Mail to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Express Delivery Mail operations are located in the West and the Group benefits from growing trade volumes between Europe and Asian countries.   
                             </div>
                             <br>
@@ -1004,7 +1004,10 @@
                 <div class="outer-box clearfix">
                     <!--Copyright-->
                 	<div class="pull-left">
-                    	<div class="copyright">&copy; Copyrights 2019 <a href=".php#" target="_blank" style="color: #ffa400;">royalmailing</a>. All rights reserved</div>
+                    	<div class="copyright">&copy; Copyrights <?php
+$current_year = date('Y');
+echo $current_year;
+?> <a href=".php#" target="_blank" style="color: #ffa400;">globalshipping</a>. All rights reserved</div>
                     </div>
                     <!--Social Links-->
                     <div class="pull-right">

@@ -158,7 +158,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index-3.php" class="img-responsive"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a>
+                    <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a>
                 </div>
                 
                 <!--Right Col-->
@@ -365,7 +365,10 @@
                 <div class="outer-box clearfix">
                     <!--Copyright-->
                 	<div class="pull-left">
-                    	<div class="copyright">&copy; Copyrights 2019 <a href=".php#" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
+                    	<div class="copyright">&copy; Copyrights <?php
+$current_year = date('Y');
+echo $current_year;
+?> <a href="index.php" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
                     </div>
                     <!--Social Links-->
                     <div class="pull-right">

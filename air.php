@@ -29,10 +29,8 @@ global $mysqli;
   <!-- Responsive -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <link href="css/responsive.css" rel="stylesheet">
-  <script src="//code.jivosite.com/widget/p1nJYGIUvj" async></script>
-  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-  <div class="elfsight-app-0c892794-8659-491e-ab20-2033721f7a62"></div>
+  <link href="css/responsive.css" rel="stylesheet"> 
+   
 
 </head>
 
@@ -50,77 +48,12 @@ global $mysqli;
       <div class="header-top">
         <div class="auto-container clearfix">
           <!--Top Left-->
-          <div class="top-left pull-left">
-            <ul class="links-nav clearfix">
-              <li><a href="index.php">Welcome to Global Shipping</a></li>
-            </ul>
-          </div>
-
+         
           <!--Top Right-->
-          <div class="top-right pull-right">
-            <ul class="links-nav clearfix">
-              <li><a href="tracking.php">Track & Trace Shipment</a></li>
-              <li><a href="contact.php">Contact Us</a></li>
-              <li><a href="about.php">About Us</a></li>
-              <li>
-                <div id="google_translate_element"></div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-12 col-sm-12" style="margin-top: 10px;">
-            <form role="form" action='tracking.php' method="POST">
-              <div class="input-group">
-                <input type="text" class="form-control" autocomplete="on" name="tracking" placeholder="Track your shipment now" style="height:50px;">
-                <span class="input-group-btn">
-                  <button class="btn btn-primary" name="track" type="submit" style="height:50px; font-size: 15px;">TRACK</button>
-                </span>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div><!-- Header Top End -->
+         <!-- Header Top End -->
 
       <!--Header-Upper-->
-      <div class="header-upper">
-        <div class="auto-container">
-          <div class="clearfix">
-
-            <div class="pull-left logo-outer">
-              <div class="logo"><a href="index.php"><img src="images/logo.png" alt="Express Delivery Mail" title="Express Delivery Mail"></a></div>
-            </div>
-
-            <div class="pull-right upper-right clearfix">
-
-              <!--Info Box-->
-              <div class="upper-column info-box">
-                <div class="icon-box"><span class="flaticon-technology-2"></span></div>
-                <ul>
-                  <li><strong>24/7 Live Support</strong></li>
-                </ul>
-              </div>
-
-              <!--Info Box-->
-              <div class="upper-column info-box">
-                <div class="icon-box"><span class="flaticon-envelope-1"></span></div>
-                <ul>
-                  <li><strong>globalshippingnetworks@gmail.com</strong></li>
-                </ul>
-              </div>
-
-              <!--Info Box-->
-              <div class="upper-column info-box">
-                <div class="icon-box"><span class="flaticon-location"></span></div>
-                <ul>
-                  <li style="padding-left: 10px;"><strong>Vickers St, San Diego</strong></li>
-                </ul>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-      </div>
-
+    
       <!--Header-Lower-->
       <div class="header-lower">
         <!--Background Layer-->
@@ -172,7 +105,7 @@ global $mysqli;
         <div class="auto-container clearfix">
           <!--Logo-->
           <div class="logo pull-left">
-            <a href="index-3.php" class="img-responsive"><img src="images/logo.png" alt="Express Delivery Mail" title="Express Delivery Mail"></a>
+            <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="Express Delivery Mail" title="Express Delivery Mail"></a>
           </div>
 
           <!--Right Col-->
@@ -221,8 +154,8 @@ global $mysqli;
         <div class="tp-banner">
           <ul>
 
-            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/images/main-slider/slide1.jpg" data-saveperformance="off" data-title="Awesome Title Here">
-              <img src="images/main-slider/slide1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/images/main-slider/air3.jpg" data-saveperformance="off" data-title="Awesome Title Here">
+              <img src="images/main-slider/air3.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
                 <div class="italic-text">Global Shipping</div>
@@ -239,8 +172,8 @@ global $mysqli;
 
             </li>
 
-            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/images/main-slider/slide2.jpg" data-saveperformance="off" data-title="Awesome Title Here">
-              <img src="images/main-slider/slide2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/images/main-slider/air2.jpg" data-saveperformance="off" data-title="Awesome Title Here">
+              <img src="images/main-slider/air1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
                 <div class="italic-text">Welcome to Global Shipping</div>
@@ -257,8 +190,8 @@ global $mysqli;
 
             </li>
 
-            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/images/main-slider/slide3.jpg" data-saveperformance="off" data-title="Awesome Title Here">
-              <img src="images/main-slider/slide3.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/images/main-slider/air2.jpg" data-saveperformance="off" data-title="Awesome Title Here">
+              <img src="images/main-slider/air2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
                 <div class="italic-text">Global Shipping</div>
@@ -851,7 +784,10 @@ global $mysqli;
           <div class="outer-box clearfix">
             <!--Copyright-->
             <div class="pull-left">
-              <div class="copyright">&copy; Copyrights 2019 <a href=".php#" target="_blank" style="color: #ffa400;">royalmailing</a>. All rights reserved</div>
+              <div class="copyright">&copy; Copyrights <?php
+$current_year = date('Y');
+echo $current_year;
+?> <a href=".php#" target="_blank" style="color: #ffa400;">globalshipping</a>. All rights reserved</div>
             </div>
             <!--Social Links-->
             <div class="pull-right">

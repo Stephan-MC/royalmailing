@@ -27,10 +27,8 @@ global $mysqli;
   <!-- Responsive -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <link href="css/responsive.css" rel="stylesheet">
-  <script src="//code.jivosite.com/widget/p1nJYGIUvj" async></script>
-  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-  <div class="elfsight-app-0c892794-8659-491e-ab20-2033721f7a62"></div>
+  <link href="css/responsive.css" rel="stylesheet"> 
+   
 
 </head>
 
@@ -170,7 +168,7 @@ global $mysqli;
         <div class="auto-container clearfix">
           <!--Logo-->
           <div class="logo pull-left">
-            <a href="index-3.php" class="img-responsive"><img src="images/logo.png" alt="Express Delivery Mail" title="Express Delivery Mail"></a>
+            <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="Express Delivery Mail" title="Express Delivery Mail"></a>
           </div>
 
           <!--Right Col-->
@@ -218,8 +216,8 @@ global $mysqli;
         <div class="tp-banner">
           <ul>
 
-            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/images/main-slider/slide1.jpg" data-saveperformance="off" data-title="Awesome Title Here">
-              <img src="images/main-slider/slide1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/images/main-slider/t1.jpg" data-saveperformance="off" data-title="Awesome Title Here">
+              <img src="images/main-slider/t1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
                 <div class="italic-text">Global Shipping</div>
@@ -236,8 +234,8 @@ global $mysqli;
 
             </li>
 
-            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/images/main-slider/slide2.jpg" data-saveperformance="off" data-title="Awesome Title Here">
-              <img src="images/main-slider/slide2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/images/main-slider/t2.jpg" data-saveperformance="off" data-title="Awesome Title Here">
+              <img src="images/main-slider/t2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
                 <div class="italic-text">Welcome to Global Shipping</div>
@@ -254,8 +252,8 @@ global $mysqli;
 
             </li>
 
-            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/images/main-slider/slide3.jpg" data-saveperformance="off" data-title="Awesome Title Here">
-              <img src="images/main-slider/slide3.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/images/main-slider/t3.jpg" data-saveperformance="off" data-title="Awesome Title Here">
+              <img src="images/main-slider/t3.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
                 <div class="italic-text">Global Shipping</div>
@@ -297,7 +295,7 @@ global $mysqli;
       </section>
       <section class=" tw-mx-10 tw-my-10 tw-px-5">
         <nav class="tw-text-gray-700">
-          <a href="" class="hover:tw-text-primary">RoyalMailing Cameroon</a>
+          <a href="" class="hover:tw-text-primary">Global Shipping</a>
           <svg class="tw-h-5 tw-w-5 tw-fill-gray-700 tw-inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <title>
               chevron-right</title>
@@ -309,7 +307,7 @@ global $mysqli;
               chevron-right</title>
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
           </svg>
-          <a href="" class="hover:tw-text-primary">RoyalMailing Global Forwarding</a>
+          <a href="" class="hover:tw-text-primary">Global Shipping Global Forwarding</a>
           <svg class="tw-h-5 tw-w-5  tw-inline tw-fill-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <title>
               chevron-right</title>
@@ -331,7 +329,7 @@ global $mysqli;
       </section>
       <section class="tw-my-10 tw-px-5">
         <div class="tw-text-center tw-mx-auto tw-max-w-[768px]">
-          <h2 class=" tw-font-bold tw-text-3xl tw-mb-8">RoyalMailing RailLine - Full-Container-Load (FCL)</h2>
+          <h2 class=" tw-font-bold tw-text-3xl tw-mb-8">Global Shipping RailLine - Full-Container-Load (FCL)</h2>
           <div class="">
             <img src="/images/rail-2.jpg" alt="not found" class="md:tw-float-right tw-h-48 tw-w-96">
             <ul class="tw-list-[square] tw-text-left tw-space-y-4 tw-py-5">
@@ -374,7 +372,7 @@ global $mysqli;
           </div>
         </div>
         <div class="tw-text-center tw-mx-auto tw-max-w-[768px]">
-          <h2 class=" tw-font-bold tw-text-3xl tw-mb-8">RoyalMailing RailConnect - Less-than-Container-Load (LCL)</h2>
+          <h2 class=" tw-font-bold tw-text-3xl tw-mb-8">Global Shipping RailConnect - Less-than-Container-Load (LCL)</h2>
           <div class="">
             <img src="/images/rail-2.jpg" alt="not found" class="md:tw-float-right tw-h-48 tw-w-96">
             <ul class="tw-list-[square] tw-text-left tw-space-y-4 tw-py-5">
@@ -763,7 +761,10 @@ global $mysqli;
           <div class="outer-box clearfix">
             <!--Copyright-->
             <div class="pull-left">
-              <div class="copyright">&copy; Copyrights 2019 <a href=".php#" target="_blank" style="color: #ffa400;">royalmailing</a>. All rights reserved</div>
+              <div class="copyright">&copy; Copyrights <?php
+$current_year = date('Y');
+echo $current_year;
+?> <a href=".php#" target="_blank" style="color: #ffa400;">globalshipping</a>. All rights reserved</div>
             </div>
             <!--Social Links-->
             <div class="pull-right">

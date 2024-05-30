@@ -38,75 +38,15 @@
         <div class="header-top">
             <div class="auto-container clearfix">
                 <!--Top Left-->
-                <div class="top-left pull-left">
-                    <ul class="links-nav clearfix">
-                        <li><a href="index.php">Welcome to Global Shipping</a></li>
-                    </ul>
-                </div>
+             
                 
                 <!--Top Right-->
-                <div class="top-right pull-right">
-                    <ul class="links-nav clearfix">
-                        <li><a href="tracking.php">Track & Trace Shipment</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><div id="google_translate_element"></div></li>
-                    </ul>
-                </div>
-                <div class="col-md-12 col-sm-12" style="margin-top: 10px;">
-                    <form role="form" action='tracking.php' method="POST">
-                        <div class="input-group">
-                            <input type="text" class="form-control" autocomplete="on" name="tracking" placeholder="Track your shipment now" style="height:50px;">
-                            <span class="input-group-btn">
-                                <button class="btn btn-primary" name="track" type="submit" style="height:50px; font-size: 15px;">TRACK</button>
-                            </span>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div><!-- Header Top End -->
+               <!-- Header Top End -->
         
         <!--Header-Upper-->
-        <div class="header-upper">
-            <div class="auto-container">
-                <div class="clearfix">
-                    
-                    <div class="pull-left logo-outer">
-                        <div class="logo"><a href="index.php"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a></div>
-                    </div>
-                    
-                    <div class="pull-right upper-right clearfix">
-                        
+     
                         <!--Info Box-->
-                        <div class="upper-column info-box">
-                            <div class="icon-box"><span class="flaticon-technology-2"></span></div>
-                            <ul>
-                                <li><strong>24/7 Live Support</strong></li>
-                            </ul>
-                        </div>
-                        
-                        <!--Info Box-->
-                        <div class="upper-column info-box">
-                            <div class="icon-box"><span class="flaticon-envelope-1"></span></div>
-                            <ul>
-                                <li><strong>globalshippingnetworks@gmail.com</strong></li>
-                            </ul>
-                        </div>
-                        
-                        <!--Info Box-->
-                        <div class="upper-column info-box">
-                            <div class="icon-box"><span class="flaticon-location"></span></div>
-                            <ul>
-                                <li style="padding-left: 10px;"><strong>Vickers St, San Diego</strong></li>
-                            </ul>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-        
+                       
         <!--Header-Lower-->
         <div class="header-lower">
             <!--Background Layer-->
@@ -157,7 +97,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index-3.php" class="img-responsive"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a>
+                    <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a>
                 </div>
                 
                 <!--Right Col-->
@@ -401,7 +341,10 @@
                 <div class="outer-box clearfix">
                     <!--Copyright-->
                 	<div class="pull-left">
-                    	<div class="copyright">&copy; Copyrights 2019 <a href=".php#" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
+                    	<div class="copyright">&copy; Copyrights <?php
+$current_year = date('Y');
+echo $current_year;
+?> <a href="index.php" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
                     </div>
                     <!--Social Links-->
                     <div class="pull-right">

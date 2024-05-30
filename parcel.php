@@ -32,10 +32,8 @@ global $mysqli;
   <!-- Responsive -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <link href="css/responsive.css" rel="stylesheet">
-  <script src="//code.jivosite.com/widget/p1nJYGIUvj" async></script>
-  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-  <div class="elfsight-app-0c892794-8659-491e-ab20-2033721f7a62"></div>
+  <link href="css/responsive.css" rel="stylesheet"> 
+   
 
 </head>
 
@@ -174,7 +172,7 @@ global $mysqli;
         <div class="auto-container clearfix">
           <!--Logo-->
           <div class="logo pull-left">
-            <a href="index-3.php" class="img-responsive"><img src="images/logo.png" alt="Express Delivery Mail" title="Express Delivery Mail"></a>
+            <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="Express Delivery Mail" title="Express Delivery Mail"></a>
           </div>
 
           <!--Right Col-->
@@ -894,7 +892,10 @@ global $mysqli;
           <div class="outer-box clearfix">
             <!--Copyright-->
             <div class="pull-left">
-              <div class="copyright">&copy; Copyrights 2019 <a href=".php#" target="_blank" style="color: #ffa400;">royalmailing</a>. All rights reserved</div>
+              <div class="copyright">&copy; Copyrights <?php
+$current_year = date('Y');
+echo $current_year;
+?> <a href=".php#" target="_blank" style="color: #ffa400;">globalshipping</a>. All rights reserved</div>
             </div>
             <!--Social Links-->
             <div class="pull-right">

@@ -56,9 +56,7 @@ $trackings = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link href="css/responsive.css" rel="stylesheet">
-    <script src="//code.jivosite.com/widget/p1nJYGIUvj" async></script>
-    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-0c892794-8659-491e-ab20-2033721f7a62"></div>
+  
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <style>
@@ -299,13 +297,13 @@ $trackings = [
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav me-auto bold-font h6" style="--bs-nav-link-color: white;">
                                 <li class="nav-item border-white border-end p-2">
-                                    <a class="nav-link" aria-current="index.php" href="#">Home</a>
+                                    <a class="nav-link" aria-current="index.php" href="index.php">Home</a>
                                 </li>
                                 <li class="nav-item border-white border-end p-2">
                                     <a class="nav-link" href="tracking.php">Track & Trace Shipment</a>
                                 </li>
                                 <li class="nav-item border-white border-end p-2">
-                                    <a class="nav-link" href="services.php">Services</a>
+                                    <a class="nav-link" href="service.php">Services</a>
                                 </li>
                                 <li class="nav-item border-white border-end p-2">
                                     <a class="nav-link" href="contact.php">Contact Us</a>
@@ -336,7 +334,7 @@ $trackings = [
                 <div class="auto-container clearfix">
                     <!--Logo-->
                     <div class="logo pull-left">
-                        <a href="index-3.php" class="img-responsive"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a>
+                        <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a>
                     </div>
 
                     <!--Right Col-->
@@ -780,7 +778,10 @@ $trackings = [
                     <div class="outer-box clearfix">
                         <!--Copyright-->
                         <div class="pull-left">
-                            <div class="copyright">&copy; Copyrights 2019 <a href=".php#" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
+                            <div class="copyright">&copy; Copyrights <?php
+$current_year = date('Y');
+echo $current_year;
+?> <a href="index.php" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
                         </div>
                         <!--Social Links-->
                         <div class="pull-right">
