@@ -47,6 +47,7 @@ $trackings = [
     <!-- Stylesheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/revolution-slider.css" rel="stylesheet">
+    <link href="css/tailwind.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!--Favicon-->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
@@ -55,7 +56,10 @@ $trackings = [
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/revolution-slider.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/tailwind.css" rel="stylesheet">
   
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
@@ -210,170 +214,7 @@ $trackings = [
         <!-- <div class="preloader"></div> -->
 
         <!-- Main Header-->
-        <header class="main-header">
-            <!-- Header Top -->
-            <div class="header-top">
-                <div class="auto-container clearfix">
-                    <!--Top Left-->
-                    <div class="top-left pull-left">
-                        <ul class="links-nav clearfix">
-                            <li><a href="index.php">Welcome to Global Shipping</a></li>
-                        </ul>
-                    </div>
-
-                    <!--Top Right-->
-                    <div class="top-right pull-right">
-                        <ul class="links-nav clearfix">
-                            <li><a href="tracking.php">Track & Trace Shipment</a></li>
-                            <li><a href="contact.php">Contact Us</a></li>
-                            <li><a href="about.php">About Us</a></li>
-                            <li>
-                                <div id="google_translate_element"></div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-12 col-sm-12" style="margin-top: 10px;">
-                        <form role="form" action='' method="POST">
-                            <div class="input-group">
-                                <input type="number" inputmode="numeric" class="form-control <?= $error ? 'border-danger' : '' ?>" autocomplete="on" name="tracking" placeholder="Track your shipment now" style="height:50px;">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-warning" type="submit" name="track" type="submit" style="height:50px; font-size: 15px;">TRACK</button>
-                                </span>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div><!-- Header Top End -->
-
-            <!--Header-Upper-->
-            <div class="header-upper">
-                <div class="auto-container">
-                    <div class="clearfix">
-
-                        <div class="pull-left logo-outer">
-                            <div class="logo"><a href="index.php"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a></div>
-                        </div>
-
-                        <div class="pull-right upper-right clearfix">
-
-                            <!--Info Box-->
-                            <div class="upper-column info-box">
-                                <div class="icon-box"><span class="flaticon-technology-2"></span></div>
-                                <ul>
-                                    <li><strong>24/7 Live Support</strong></li>
-                                </ul>
-                            </div>
-
-                            <!--Info Box-->
-                            <div class="upper-column info-box">
-                                <div class="icon-box"><span class="flaticon-envelope-1"></span></div>
-                                <ul>
-                                    <li><strong>globalshippingnetworks@gmail.com</strong></li>
-                                </ul>
-                            </div>
-
-                            <!--Info Box-->
-                            <div class="upper-column info-box">
-                                <div class="icon-box"><span class="flaticon-location"></span></div>
-                                <ul>
-                                    <li style="padding-left: 10px;"><strong>UK</strong></li>
-                                </ul>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!--Header-Lower-->
-            <div class="header-lower">
-                <nav class="navbar navbar-expand-md p-0 navbar-dark" style="background-color: #15425e ! important; color: white ! important;">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav me-auto bold-font h6" style="--bs-nav-link-color: white;">
-                                <li class="nav-item border-white border-end p-2">
-                                    <a class="nav-link" aria-current="index.php" href="index.php">Home</a>
-                                </li>
-                                <li class="nav-item border-white border-end p-2">
-                                    <a class="nav-link" href="tracking.php">Track & Trace Shipment</a>
-                                </li>
-                                <li class="nav-item border-white border-end p-2">
-                                    <a class="nav-link" href="service.php">Services</a>
-                                </li>
-                                <li class="nav-item border-white border-end p-2">
-                                    <a class="nav-link" href="contact.php">Contact Us</a>
-                                </li>
-                                <li class="nav-item p-2">
-                                    <a class="nav-link" href="about.php">About Us</a>
-                                </li>
-                                <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Dropdown link
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-
-            </div>
-
-
-            <!--Sticky Header-->
-            <div class="sticky-header">
-                <div class="auto-container clearfix">
-                    <!--Logo-->
-                    <div class="logo pull-left">
-                        <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a>
-                    </div>
-
-                    <!--Right Col-->
-                    <div class="right-col pull-right">
-                        <!-- Main Menu -->
-                        <nav class="main-menu">
-                            <div class="navbar-header">
-                                <!-- Toggle Button -->
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-
-                            <div class="navbar-collapse collapse clearfix">
-                                <ul class="navigation clearfix">
-                                    <li><a href="index.php">Home</a></li>
-                                    <li><a href="tracking.php">Track & Trace Shipment</a></li>
-                                    <li class="dropdown"><a href="service.php">Services</a>
-                                        <ul>
-                                            <li><a href="air.php">Air Transportation</a></li>
-                                            <li><a href="marine.php">Marine Transportation</a></li>
-                                            <li><a href="trucking.php">Trucking</a></li>
-                                            <li><a href="moving.php">Moving & Storage</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.php">Contact Us</a></li>
-                                    <li><a href="about.php">About Us</a></li>
-                                    <!-- <li><a href="/termsconditions">Terms & Conditions</a></li> -->
-                                </ul>
-                            </div>
-                        </nav><!-- Main Menu End-->
-                    </div>
-
-                </div>
-            </div><!--End Sticky Header-->
-
-        </header>
+      <?php require 'partials/_header.php'; ?>
         <!--End Main Header -->
 
 
@@ -406,7 +247,7 @@ $trackings = [
                                     <div class="input-group">
                                         <input type="text" class="form-control <?= $error ? 'border-danger' : '' ?>" autocomplete="on" name="tracking" placeholder="Track your shipment now" style="height:50px;">
                                         <span class="input-group-btn">
-                                            <button class="btn btn-warning" type="submit" name="track" type="submit" style="height:50px; font-size: 15px;">TRACK</button>
+                                            <button class="btn btn-warning tw-bg-primary tw-border-primary text-white" type="submit" name="track" type="submit" style="height:50px; font-size: 15px;">TRACK</button>
                                         </span>
                                     </div>
                                 </form>
@@ -585,22 +426,15 @@ $trackings = [
                         <div class="table-responsive overflow-auto">
 
                             <?php
-                            // Connect to MySQL database
-                            $servername = "localhost";
-                            $username = "root";
-                            $password = "";
-                            $dbname = "demo";
-
-                            $conn = mysqli_connect($servername, $username, $password, $dbname);
 
                             // Check connection
-                            if (!$conn) {
+                            if (!$mysqli) {
                                 die("Connection failed: " . mysqli_connect_error());
                             }
 
                             // Execute a query to retrieve shipment data
                             $sql = "SELECT * FROM shipment_process WHERE trakin_number = $tracking";
-                            $result = mysqli_query($conn, $sql);
+                            $result = mysqli_query($mysqli, $sql);
 
                             // Loop through the results and output table rows
                             if (mysqli_num_rows($result) > 0) {
@@ -630,9 +464,9 @@ $trackings = [
                                 echo "</tbody>";
                                 echo ' </table>';
                             } else {
-                                echo "0 results" . mysqli_error($conn);
+                                echo "0 results" . mysqli_error($mysqli);
                             }
-                            mysqli_close($conn);
+                            mysqli_close($mysqli);
                             ?>
                         </div>
 
