@@ -819,7 +819,7 @@ li {
 .main-header .nav-outer {
   position: relative;
   padding-right: 230px;
-  background: #0c63a6;
+  background: rebeccapurple;
 }
 
 .main-header .header-main-box .nav-outer {
@@ -3596,7 +3596,7 @@ li {
 .breadcrumb-outer .bread-crumb a:hover,
 .breadcrumb-outer .bread-crumb a.current {
   position: relative;
-  color: #0c63a6;
+  color: rebeccapurple;
 }
 
 /*** 
