@@ -58,11 +58,11 @@
       <!--Header-Lower-->
       <div class="header-lower">
         <!--Background Layer-->
-        <div class="bg-layer"></div>
+        <div class="bg-layer tw-bg-primary"></div>
 
 
         <div class="auto-container">
-          <div class="nav-outer clearfix">
+          <div class="nav-outer clearfix tw-bg-primary">
             <!-- Main Menu -->
             <nav class="main-menu">
               <div class="navbar-header">
@@ -76,19 +76,19 @@
 
               <div class="navbar-collapse collapse clearfix">
                 <ul class="navigation clearfix">
-                  <li><a href="index.php">Home</a></li>
-                  <li><a href="tracking.php">Track & Trace Shipment</a></li>
-                  <li class="dropdown"><a href="service.php">Services</a>
+                  <li><a href="index.php" class="tw-bg-primary">Home</a></li>
+                  <li><a href="tracking.php" class="tw-bg-primary">Track & Trace Shipment</a></li>
+                  <li class="dropdown"><a href="service.php" class="tw-bg-primary">Services</a>
                     <ul>
-                      <li><a href="air.php">Air Transportation</a></li>
-                      <li><a href="rail.php">Rail Transportation</a></li>
-                      <li><a href="marine.php">Marine Transportation</a></li>
-                      <li><a href="trucking.php">Trucking</a></li>
-                      <li><a href="moving.php">Moving & Storage</a></li>
+                      <li><a href="air.php" class="tw-bg-primary">Air Transportation</a></li>
+                      <li><a href="rail.php" class="tw-bg-primary">Rail Transportation</a></li>
+                      <li><a href="marine.php" class="tw-bg-primary">Marine Transportation</a></li>
+                      <li><a href="trucking.php" class="tw-bg-primary">Trucking</a></li>
+                      <li><a href="moving.php" class="tw-bg-primary">Moving & Storage</a></li>
                     </ul>
                   </li>
-                  <li><a href="contact.php">Contact Us</a></li>
-                  <li><a href="about.php">About Us</a></li>
+                  <li><a href="contact.php" class="tw-bg-primary">Contact Us</a></li>
+                  <li><a href="about.php" class="tw-bg-primary">About Us</a></li>
                   <!-- <li><a href="/termsconditions">Terms & Conditions</a></li> -->
                 </ul>
               </div>
@@ -271,7 +271,7 @@
                   <svg class="tw-fill-primary tw-h-10 tw-w-10 tw-mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path d="M18,15H16V17H18M18,11H16V13H18M20,19H12V17H14V15H12V13H14V11H12V9H20M10,7H8V5H10M10,11H8V9H10M10,15H8V13H10M10,19H8V17H10M6,7H4V5H6M6,11H4V9H6M6,15H4V13H6M6,19H4V17H6M12,7V3H2V21H22V7H12Z" />
                   </svg>
-                  <h2 class="tw-font-semibold tw-text-sm tw-leading-7">DHL for business</h2>
+                  <h2 class="tw-font-semibold tw-text-sm tw-leading-7">GSN for business</h2>
                   <p class="tw-text-xs tw-text-gray-600 leading-5 px-2">shipping regularly? request a business
                     account and profit from exclusive benefits</p>
                 </div>
@@ -510,7 +510,7 @@
                   <img src="/images/green-logistics.jpeg" class="tw-w-full tw-h-full tw-object-center tw-object-center" />
                 </div>
                 <div class="tw-inset-y-0 tw-w-full md:tw-w-2/3 md:tw-absolute tw-h-full md:tw-p-10 tw-py-4 tw-space-y-5 tw-bg-white/70 tw-grid md:tw-block">
-                  <h2 class="tw-font-bold tw-text-3xl">Green Logistics</h2>
+                  <h2 class="tw-font-bold tw-text-3xl tw-text-primary">Green Logistics</h2>
                   <p>Sustainable business begins with sustainable supply chains. As the pioneer of green
                     logistics, we have an unmatched portfolio of green logistics solutions. Together with
                     our customers worldwide, we’re minimizing emissions without compromising operations.
@@ -525,8 +525,8 @@
                   <img src="/images/4.png" class="tw-w-full tw-h-full tw-object-cover tw-object-center" />
                 </div>
                 <div class="tw-inset-y-0 tw-right-0  tw-w-full md:tw-w-2/3 md:tw-absolute tw-h-full md:tw-p-10 tw-py-4 tw-space-y-5 tw-bg-white/70 tw-grid md:tw-block">
-                  <h2 class="tw-font-bold tw-text-3xl">Our Divisions</h2>
-                  <p>DHL connects people in over 220 countries and territories worldwide. Driven by the power
+                  <h2 class="tw-font-bold tw-text-3xl tw-text-primary">Our Divisions</h2>
+                  <p>GSN connects people in over 220 countries and territories worldwide. Driven by the power
                     of more than 395,000 employees, we deliver integrated services and tailored solutions
                     for managing and transporting letters, goods and information.</p>
                   <button class="tw-bg-primary tw-text-white tw-px-4 tw-py-2 tw-rounded-md">learn more
@@ -538,10 +538,10 @@
                   <img src="/images/us_background.jpg" class="tw-w-full tw-h-full tw-object-cover tw-object-center" />
                 </div>
                 <div class="tw-inset-y-0 tw-w-full md:tw-w-2/3 md:tw-absolute tw-h-full md:tw-p-10 tw-py-4 tw-space-y-5 tw-bg-white/70 tw-grid md:tw-block">
-                  <h2 class="tw-font-bold tw-text-3xl">Insights and Innovation</h2>
+                  <h2 class="tw-font-bold tw-text-3xl tw-text-primary">Insights and Innovation</h2>
                   <p>To enable collaboration, the company brings together customers, research and academic
-                    institutions, industry partners, and logistics experts within the DHL business
-                    divisions. As a thought leader in the logistics industry, DHL structurally invests in
+                    institutions, industry partners, and logistics experts within the GSN business
+                    divisions. As a thought leader in the logistics industry, GSN structurally invests in
                     trend research and solution development.</p>
                   <button class="tw-bg-primary tw-text-white tw-px-4 tw-py-2 tw-rounded-md">learn more
                   </button>
@@ -746,7 +746,7 @@
               <div class="footer-widget about-widget">
                 <h2>About Us</h2>
                 <div class="text">
-                  <p>Express Delivery Mail is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Express Delivery Mail to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Express Delivery Mail operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
+                  <p>Express Delivery Mail is one of the leading public transportation and logistics companies in the US with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Express Delivery Mail to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Express Delivery Mail operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
                 </div>
 
               </div>

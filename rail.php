@@ -358,7 +358,7 @@ global $mysqli;
                 <li>Service covering Asian origins/destinations in China, Taiwan, Japan, Korea, Vietnam, to and
                   from Europe
                 </li>
-                <li>Highly reliable connections between DHL’s regional networks in Europe and Asia</li>
+                <li>Highly reliable connections between GSN’s regional networks in Europe and Asia</li>
                 <li>Dedicated rail hubs in Europe and China</li>
                 <li>Standardised operation from pick-up to delivery</li>
                 <li>Secure and monitored loading and handling</li>
@@ -398,7 +398,7 @@ global $mysqli;
               <ul class="tw-list-[square] tw-text-left tw-space-y-4">
                 <li>Standard loading unit: pallets, cartons or boxes</li>
                 <li>Service covering origins/destinations in China and Europe</li>
-                <li>Regular departures between major business centres, with connections between DHL’s regional
+                <li>Regular departures between major business centres, with connections between GSN’s regional
                   networks, via dedicated rail hubs in Europe and China
                 </li>
                 <li>Standardised operation from pick-up to delivery, with defined and highly reliable
@@ -407,7 +407,7 @@ global $mysqli;
                 <li>Secure and monitored loading and handling</li>
                 <li>State-of-the-art Track and Trace</li>
                 <li>Efficient handling of transit formalities</li>
-                <li>Pick-up and delivery via DHL road networks</li>
+                <li>Pick-up and delivery via GSN road networks</li>
                 <li>Maximum dimensions per item: 240cm (L) x 220cm (W) x 220cm (H)</li>
                 <li>Excludes dangerous goods</li>
               </ul>
@@ -435,7 +435,7 @@ global $mysqli;
             <div class="tw-h-2/4 tw-py-10 tw-px-5">
               <h3 class="tw-text-gray-700 tw-text-sm">A range of flexible Rail and Multimodal transport solutions at a cost efficient rate
                 including a suite of value added services ensure that you receive the quality service you expect
-                from DHL</h3>
+                from GSN</h3>
 
             </div>
           </div>
@@ -667,7 +667,7 @@ global $mysqli;
               <div class="footer-widget about-widget">
                 <h2>About Us</h2>
                 <div class="text">
-                  <p>Express Delivery Mail is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Express Delivery Mail to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Express Delivery Mail operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
+                  <p>Express Delivery Mail is one of the leading public transportation and logistics companies in the US with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Express Delivery Mail to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Express Delivery Mail operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
                 </div>
 
               </div>
