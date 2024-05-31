@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/globalexpressage/public_html
+
+    - rsync -av . $DEPLOYPATH/ --exclude=.git
+
+    # Install composer dependencies
+    - /opt/cpanel/composer/bin/composer --working-dir=$DEPLOYPATH/ install
