@@ -7,7 +7,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 <meta charset="utf-8">
-<title>Global Shipping | About Us</title>
+<title>G-Express Agency | About Us</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/tailwind.css" rel="stylesheet">
@@ -69,11 +69,11 @@
                     
                     <!-- <div class="featured-text">Lorem ipsum dolor sit amet, <strong>pro ne honestatis sadipscing</strong>, detraxit salutatus ne mei. Omnis labores eos ne, scripta facilisi dissentias mel ex, ex vis semper adolescens delicatissimi.</div> -->
                     <div class="text">
-                    	<p>Global Shipping is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Global Shipping to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Global Shipping operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries.</p>
+                    	<p>G-Express Agency is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables G-Express Agency to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of G-Express Agency operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries.</p>
 
-                        <p>Global Shipping is the leader of container transportation through the East through international sea container lines to/from Asian countries, domestic sea container lines and by rail. Global Shipping is the leading port container operator in the East region. Global Shipping controls the Commercial Ports which have throughout a capacity of 3.9 million tons of general cargo and oil products, 150,000 vehicles and over 600,000 TEU of containers. Global Shipping is among the top largest American private rail operators. We operates a fleet of over 16.2 thousand units of rolling stock. Global Shipping has a fleet of 20 vessels, mostly deployed through own sea service lines.
+                        <p>G-Express Agency is the leader of container transportation through the East through international sea container lines to/from Asian countries, domestic sea container lines and by rail. G-Express Agency is the leading port container operator in the East region. G-Express Agency controls the Commercial Ports which have throughout a capacity of 3.9 million tons of general cargo and oil products, 150,000 vehicles and over 600,000 TEU of containers. G-Express Agency is among the top largest American private rail operators. We operates a fleet of over 16.2 thousand units of rolling stock. G-Express Agency has a fleet of 20 vessels, mostly deployed through own sea service lines.
 
-                        <p>Global Shipping. Safe Hands - Safe Journey</p>
+                        <p>G-Express Agency. Safe Hands - Safe Journey</p>
                     </div>
                     
                     <ul class="styled-list-one clearfix">
@@ -279,7 +279,7 @@
                         <div class="single-item-carousel testimonial-carousel">
                             <!--Slide Item-->
                             <div class="slide-item">
-                                <div class="content-box">I want to thank you soo much for keeping your word. All went well and Now I am going to deliver everything through you. Thank you again Global Shipping, I was really impressed.</div>
+                                <div class="content-box">I want to thank you soo much for keeping your word. All went well and Now I am going to deliver everything through you. Thank you again G-Express Agency, I was really impressed.</div>
                                 <div class="info-box">
                                     <figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/client1.png" alt=""></figure>
                                     <!-- <h4>FRED</h4> -->
@@ -289,7 +289,7 @@
                             
                             <!--Slide Item-->
                             <div class="slide-item">
-                                <div class="content-box">How amazing how you guys delivered so early. I thought it was going to take time but I was wrong. Thanks so much Global Shipping you are the best I can ever use and ask anyone out there to use.</div>
+                                <div class="content-box">How amazing how you guys delivered so early. I thought it was going to take time but I was wrong. Thanks so much G-Express Agency you are the best I can ever use and ask anyone out there to use.</div>
                                 <div class="info-box">
                                     <figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/client2.png" alt=""></figure>
                                     <!-- <h4>CHEWY AND TONTO</h4> -->
@@ -299,7 +299,7 @@
                             
                             <!--Slide Item-->
                             <div class="slide-item">
-                                <div class="content-box">I am amazed. I am now comfortable that my goods can reach me safe, secure and on time. It's really swift and rapid. Thanks to Global Shipping.</div>
+                                <div class="content-box">I am amazed. I am now comfortable that my goods can reach me safe, secure and on time. It's really swift and rapid. Thanks to G-Express Agency.</div>
                                 <div class="info-box">
                                     <figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/client3.jpg" alt=""></figure>
                                     <!-- <h4>EVA</h4> -->
@@ -355,7 +355,7 @@
                         <div class="footer-widget about-widget">
                             <h2>About Us</h2>
                             <div class="text">
-                            	<p>Global Shipping is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Global Shipping to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Global Shipping operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
+                            	<p>G-Express Agency is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables G-Express Agency to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of G-Express Agency operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
                             </div>
                             
                         </div>
@@ -445,7 +445,7 @@
                     	<div class="copyright">&copy; Copyrights <?php
 $current_year = date('Y');
 echo $current_year;
-?> <a href="index.php#" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
+?> <a href="index.php#" target="_blank" style="color: #ffa400;">G-Express Agency</a>. All rights reserved</div>
                     </div>
                     <!--Social Links-->
                     <div class="pull-right">

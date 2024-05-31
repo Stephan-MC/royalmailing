@@ -37,7 +37,7 @@ $trackings = [
 
 <head>
     <meta charset="utf-8">
-    <title>Global Shipping| Track & Trace Shipment</title>
+    <title>G-Express Agency| Track & Trace Shipment</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
@@ -519,7 +519,7 @@ $trackings = [
                             <div class="footer-widget about-widget">
                                 <h2>About Us</h2>
                                 <div class="text">
-                                    <p>Global Shippingis one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Global Shippingto provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Global Shippingoperations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
+                                    <p>G-Express Agencyis one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables G-Express Agencyto provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of G-Express Agencyoperations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
                                 </div>
 
                             </div>
@@ -615,7 +615,7 @@ $trackings = [
                             <div class="copyright">&copy; Copyrights <?php
 $current_year = date('Y');
 echo $current_year;
-?> <a href="index.php" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
+?> <a href="index.php" target="_blank" style="color: #ffa400;">G-Express Agency</a>. All rights reserved</div>
                         </div>
                         <!--Social Links-->
                         <div class="pull-right">

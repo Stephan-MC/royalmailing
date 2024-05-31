@@ -17,7 +17,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Global Shipping | Home</title>
+  <title>G-Express Agency | Home</title>
   <!-- Stylesheets -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/revolution-slider.css" rel="stylesheet">
@@ -57,7 +57,7 @@
               <img src="images/main-slider/slide1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Global Shipping</div>
+                <div class="italic-text">G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -75,7 +75,7 @@
               <img src="images/main-slider/slide2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Welcome to Global Shipping</div>
+                <div class="italic-text">Welcome to G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -93,7 +93,7 @@
               <img src="images/main-slider/slide3.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Global Shipping</div>
+                <div class="italic-text">G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -134,7 +134,7 @@
                 </form>
               </div>
               <a href="/" class="tw-mt-2 tw-block">
-                <span>Global Shipping Refrence Tracking</span>
+                <span>G-Express Agency Refrence Tracking</span>
                 <svg class="tw-h-5 tw-w-5 tw-fill-white tw-inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <title>
                     chevron-right</title>

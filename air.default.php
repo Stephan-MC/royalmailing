@@ -6,7 +6,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 <meta charset="utf-8">
-<title>Global Shipping | Air Transportation</title>
+<title>G-Express Agency | Air Transportation</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -41,7 +41,7 @@
                 <!--Top Left-->
                 <div class="top-left pull-left">
                     <ul class="links-nav clearfix">
-                        <li><a href="index.php">Welcome to Global Shipping</a></li>
+                        <li><a href="index.php">Welcome to G-Express Agency</a></li>
                     </ul>
                 </div>
                 
@@ -73,7 +73,7 @@
                 <div class="clearfix">
                     
                     <div class="pull-left logo-outer">
-                        <div class="logo"><a href="index.php"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a></div>
+                        <div class="logo"><a href="index.php"><img src="images/logo.png" alt="G-Express Agency" title="G-Express Agency"></a></div>
                     </div>
                     
                     <div class="pull-right upper-right clearfix">
@@ -158,7 +158,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a>
+                    <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="G-Express Agency" title="G-Express Agency"></a>
                 </div>
                 
                 <!--Right Col-->
@@ -278,7 +278,7 @@
                         <div class="footer-widget about-widget">
                             <h2>About Us</h2>
                             <div class="text">
-                            	<p>Global Shipping is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Global Shipping to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Global Shipping operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
+                            	<p>G-Express Agency is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables G-Express Agency to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of G-Express Agency operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
                             </div>
                             
                         </div>
@@ -368,7 +368,7 @@
                     	<div class="copyright">&copy; Copyrights <?php
 $current_year = date('Y');
 echo $current_year;
-?> <a href="index.php" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
+?> <a href="index.php" target="_blank" style="color: #ffa400;">G-Express Agency</a>. All rights reserved</div>
                     </div>
                     <!--Social Links-->
                     <div class="pull-right">

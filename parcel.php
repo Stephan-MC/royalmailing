@@ -17,7 +17,7 @@ global $mysqli;
 
 <head>
   <meta charset="utf-8">
-  <title>Global Shipping | Home</title>
+  <title>G-Express Agency | Home</title>
   <!-- Stylesheets -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/revolution-slider.css" rel="stylesheet">
@@ -53,7 +53,7 @@ global $mysqli;
           <!--Top Left-->
           <div class="top-left pull-left">
             <ul class="links-nav clearfix">
-              <li><a href="index.php">Welcome to Global Shipping</a></li>
+              <li><a href="index.php">Welcome to G-Express Agency</a></li>
             </ul>
           </div>
 
@@ -224,7 +224,7 @@ global $mysqli;
               <img src="images/main-slider/slide1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Global Shipping</div>
+                <div class="italic-text">G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -242,7 +242,7 @@ global $mysqli;
               <img src="images/main-slider/slide2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Welcome to Global Shipping</div>
+                <div class="italic-text">Welcome to G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -260,7 +260,7 @@ global $mysqli;
               <img src="images/main-slider/slide3.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Global Shipping</div>
+                <div class="italic-text">G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -288,7 +288,7 @@ global $mysqli;
       <div class="tw-relative tw-h-full tw-flex tw-justify-center tw-items-center tw-bg-black/40 tw-w-full">
         <div class="tw-flex tw-justify-center md:tw-space-x-20 tw-items-center tw-flex-wrap">
           <p class="tw-text-white sm:tw-max-w-xs tw-text-3xl tw-text-center">
-            Welcome to <span class="tw-font-semibold">Global Shipping</span> Fast,
+            Welcome to <span class="tw-font-semibold">G-Express Agency</span> Fast,
             Door-to-Door, Courier Delivered
           </p>
           <div class="tw-p-3 tw-rounded-md tw-flex tw-flex-col tw-space-y-4 tw-bg-black/40 tw-backdrop-blur-md">

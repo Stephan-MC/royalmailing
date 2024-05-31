@@ -16,7 +16,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 <meta charset="utf-8">
-<title>Global Shipping | Home</title>
+<title>G-Express Agency | Home</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/revolution-slider.css" rel="stylesheet">
@@ -49,7 +49,7 @@
                 <!--Top Left-->
                 <div class="top-left pull-left">
                     <ul class="links-nav clearfix">
-                        <li><a href="index.php">Welcome to Global Shipping</a></li>
+                        <li><a href="index.php">Welcome to G-Express Agency</a></li>
                     </ul>
                 </div>
                 
@@ -228,7 +228,7 @@
                     data-elementdelay="0.01"
                     data-endelementdelay="0.3"
                     data-endspeed="1200"
-                    data-endeasing="Power4.easeIn"><div class="italic-text">Global Shipping</div></div>
+                    data-endeasing="Power4.easeIn"><div class="italic-text">G-Express Agency</div></div>
                     
                     <div class="tp-caption sfl sfb tp-resizeme"
                     data-x="left" data-hoffset="15"
@@ -286,7 +286,7 @@
                     data-elementdelay="0.01"
                     data-endelementdelay="0.3"
                     data-endspeed="1200"
-                    data-endeasing="Power4.easeIn"><div class="italic-text">Welcome to Global Shipping</div></div>
+                    data-endeasing="Power4.easeIn"><div class="italic-text">Welcome to G-Express Agency</div></div>
                     
                     <div class="tp-caption sfl sfb tp-resizeme"
                     data-x="left" data-hoffset="15"
@@ -344,7 +344,7 @@
                     data-elementdelay="0.01"
                     data-endelementdelay="0.3"
                     data-endspeed="1200"
-                    data-endeasing="Power4.easeIn"><div class="italic-text">Global Shipping</div></div>
+                    data-endeasing="Power4.easeIn"><div class="italic-text">G-Express Agency</div></div>
                     
                     <div class="tp-caption sfl sfb tp-resizeme"
                     data-x="left" data-hoffset="15"
@@ -409,7 +409,7 @@
                     	<!-- <figure class="image-box"><img src="images/resource/featured-image-1.jpg" alt=""><a class="overlay" href="services-single.php"></a></figure> -->
                         <div class="lower-content">
                         	<h3><a href=".php#">globalshipping is a company that delivers and prides itself on providing the best care to its clients.</a></h3>
-                            <div class="text">Global Shipping is one of the leading public transportation and logistics companies in Ireland with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Express Delivery Mail to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Express Delivery Mail operations are located in the West and the Group benefits from growing trade volumes between Europe and Asian countries.   
+                            <div class="text">G-Express Agency is one of the leading public transportation and logistics companies in Ireland with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Express Delivery Mail to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Express Delivery Mail operations are located in the West and the Group benefits from growing trade volumes between Europe and Asian countries.   
                             </div>
                             <br>
                             <div class="text-center"><a href="about.php" class="theme-btn btn-style-one">Read More <span class="fa fa-caret-right"></span></a></div>

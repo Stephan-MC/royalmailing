@@ -7,7 +7,7 @@
 <head>
 	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
 	
-	<title>Global Shipping Invoice</title>
+	<title>G-Express Agency Invoice</title>
 	
 	<link rel='stylesheet' type='text/css' href='css/style.css' />
 	<link rel='stylesheet' type='text/css' href='css/print.css' media="print" />
@@ -27,7 +27,7 @@
 		
 		<div id="identity">
 		
-            <textarea id="address">Global Shipping
+            <textarea id="address">G-Express Agency
 San Diego, CA, USA
 Email: globalshippingnetworks@gmail.comm
 Phone: +1 (925) 626-0338

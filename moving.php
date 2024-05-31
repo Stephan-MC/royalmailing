@@ -7,7 +7,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 <meta charset="utf-8">
-<title>Global Shipping | Moving & Storage</title>
+<title>G-Express Agency | Moving & Storage</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/tailwind.css" rel="stylesheet">
@@ -69,9 +69,9 @@
                     <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="lower-content">
                             <h3><a href=".php#">Storage</a></h3>
-                            <div class="text">As a full-service moving company, Global Shipping is able to offer residential movers with secure, affordable storage-in-transit (SIT) options as a complement to our traditional moving services.
+                            <div class="text">As a full-service moving company, G-Express Agency is able to offer residential movers with secure, affordable storage-in-transit (SIT) options as a complement to our traditional moving services.
                             </div>
-                            <div class="text">If you’re planning a move but your new residence isn’t quite ready, or you need some additional storage space while you sell your previous home, Global Shipping can help. Our specialized storage services provide an easy-to-use, flexible solution when you’re faced with moving schedule challenges. We’ll store your belongings at our secure, convenient storage facilities as part of the moving process, hold them on site until your new home is ready, then move them into your new space when you are ready.
+                            <div class="text">If you’re planning a move but your new residence isn’t quite ready, or you need some additional storage space while you sell your previous home, G-Express Agency can help. Our specialized storage services provide an easy-to-use, flexible solution when you’re faced with moving schedule challenges. We’ll store your belongings at our secure, convenient storage facilities as part of the moving process, hold them on site until your new home is ready, then move them into your new space when you are ready.
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                     <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="lower-content">
                             <h3><a href=".php#">Moving</a></h3>
-                            <div class="text">At Global Shipping, we take the transportation of your cargo personally and we offer customers a vast and modern fleet of containers. From straightforward dry boxes to garmentainers to state-of-the-art controlled atmosphere reefers, Global Shipping has the size and type of box to suit your needs. Our modern offices are happy to advise you on which is the best container for your cargo.  
+                            <div class="text">At G-Express Agency, we take the transportation of your cargo personally and we offer customers a vast and modern fleet of containers. From straightforward dry boxes to garmentainers to state-of-the-art controlled atmosphere reefers, G-Express Agency has the size and type of box to suit your needs. Our modern offices are happy to advise you on which is the best container for your cargo.  
                             <ul>
                                 <li style="list-style: square;">General purpose</li>
                                 <li style="list-style: square;">High cube</li>
@@ -103,7 +103,7 @@
                                 <li style="list-style: square;">Garmentainers</li>
                                 <li style="list-style: square;">Super rack</li>
                             </ul>
-                            Our comprehensive maintenance program ensures all containers are in prime condition, and meet or exceed international quality standards. Manufactured from corrosion resistant steel (corten), stainless steel or aluminium, Global Shipping containers are of the highest quality.
+                            Our comprehensive maintenance program ensures all containers are in prime condition, and meet or exceed international quality standards. Manufactured from corrosion resistant steel (corten), stainless steel or aluminium, G-Express Agency containers are of the highest quality.
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                         <div class="footer-widget about-widget">
                             <h2>About Us</h2>
                             <div class="text">
-                            	<p>Global Shipping is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Global Shipping to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Global Shipping operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
+                            	<p>G-Express Agency is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables G-Express Agency to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of G-Express Agency operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
                             </div>
                             
                         </div>
@@ -242,7 +242,7 @@
                     	<div class="copyright">&copy; Copyrights <?php
 $current_year = date('Y');
 echo $current_year;
-?> <a href="index.php" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
+?> <a href="index.php" target="_blank" style="color: #ffa400;">G-Express Agency</a>. All rights reserved</div>
                     </div>
                     <!--Social Links-->
                     <div class="pull-right">

@@ -7,7 +7,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 <meta charset="utf-8">
-<title>Global Shipping | Marine Transportation</title>
+<title>G-Express Agency | Marine Transportation</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -92,7 +92,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a>
+                    <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="G-Express Agency" title="G-Express Agency"></a>
                 </div>
                 
                 <!--Right Col-->
@@ -170,7 +170,7 @@
                             </div>
                             <div class="text">Sea freight services were revolutionised by the introduction of containerisation after the Second World War—loading ships with standardised containers allowed a greater volume of cargo per vessel and removed the need for warehousing. Today, the majority of sea cargo is transported in either TEU (twenty foot equivalent unit) or FEU (forty foot equivalent unit) containers. 
                             </div>
-                            <div class="text">With Global Shipping, you have the option to book either an FCL (full container load) at one of those sizes, or an LCL (part container load) if you don't have enough cargo to fill a whole container at either of those sizes.
+                            <div class="text">With G-Express Agency, you have the option to book either an FCL (full container load) at one of those sizes, or an LCL (part container load) if you don't have enough cargo to fill a whole container at either of those sizes.
                             </div>
                         </div>
                     </div>
@@ -212,7 +212,7 @@
                         <div class="footer-widget about-widget">
                             <h2>About Us</h2>
                             <div class="text">
-                            	<p>Global Shipping is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Global Shipping to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Global Shipping operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
+                            	<p>G-Express Agency is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables G-Express Agency to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of G-Express Agency operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
                             </div>
                             
                         </div>
@@ -302,7 +302,7 @@
                     	<div class="copyright">&copy; Copyrights <?php
 $current_year = date('Y');
 echo $current_year;
-?> <a href="index.php" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
+?> <a href="index.php" target="_blank" style="color: #ffa400;">G-Express Agency</a>. All rights reserved</div>
                     </div>
                     <!--Social Links-->
                     <div class="pull-right">

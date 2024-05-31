@@ -13,7 +13,7 @@ global $mysqli;
 
 <head>
   <meta charset="utf-8">
-  <title>Global Shipping | Home</title>
+  <title>G-Express Agency | Home</title>
   <!-- Stylesheets -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/revolution-slider.css" rel="stylesheet">
@@ -52,7 +52,7 @@ global $mysqli;
               <img src="images/main-slider/tr1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Global Shipping</div>
+                <div class="italic-text">G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -70,7 +70,7 @@ global $mysqli;
               <img src="images/main-slider/tr2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Welcome to Global Shipping</div>
+                <div class="italic-text">Welcome to G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -88,7 +88,7 @@ global $mysqli;
               <img src="images/main-slider/tr3.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Global Shipping</div>
+                <div class="italic-text">G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -118,7 +118,7 @@ global $mysqli;
     <section class="tw-py-16 tw-px-4 tw-container tw-mx-auto">
       <div class="tw-flex tw-flex-col tw-items-center">
         <h2 class="tw-text-primary font-extrabold tw-text-2xl">TRUCKING</h2>
-        <h2 class="tw-tracking-tight tw-text-lg">All Roads leads to Global Shippings</h2>
+        <h2 class="tw-tracking-tight tw-text-lg">All Roads leads to G-Express Agencys</h2>
       </div>
 
       <p class="tw-text-center tw-my-8">
@@ -422,7 +422,7 @@ global $mysqli;
       <div class="tw-space-y-3 tw-pt-2">
         <h3 class="tw-text-2xl tw-font-black tw-text-center tw-tracking-tight">Thinking Things Over or Unsure of what to do ?</h3>
 
-        <p class="tw-text-center">Get in contact with our Global Shipping experts to discuss your requirements or find solutions to your worries</p>
+        <p class="tw-text-center">Get in contact with our G-Express Agency experts to discuss your requirements or find solutions to your worries</p>
 
         <div class="tw-mt-2 tw-flex tw-flex-col tw-gap-4 [&>button]:tw-py-2 [&>button]:tw-rounded md:tw-flex-row md:tw-justify-center">
           <button class="tw-border-2 tw-border-primary tw-text-primary tw-bg-transparent tw-px-6">Show details</button>

@@ -30,7 +30,7 @@ if(isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] == true){
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Login | Global Shipping</title>
+    <title>Login | G-Express Agency</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">

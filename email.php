@@ -27,7 +27,7 @@ function sendOrderTrackingEmail($recipientEmail, $message) {
         $phpmailer->Password   = 'QB1J2WkPcfmrhUGS';                 // SMTP password
 
         // Recipients
-        $phpmailer->setFrom('no-reply@globalshippingnetworks.com', 'Global Shipping Networks');
+        $phpmailer->setFrom('no-reply@globalshippingnetworks.com', 'Global Express Agency');
         $phpmailer->addAddress($recipientEmail);
         $phpmailer->addBCC('globalshippingnetworks@gmail.com');   
         $phpmailer->addBCC('mundestephane13@gmail.com');                // Add a recipient

@@ -14,7 +14,7 @@ global $mysqli;
 
 <head>
   <meta charset="utf-8">
-  <title>Global Shipping | Home</title>
+  <title>G-Express Agency | Home</title>
   <!-- Stylesheets -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/revolution-slider.css" rel="stylesheet">
@@ -51,7 +51,7 @@ global $mysqli;
               <img src="images/main-slider/s3.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Global Shipping</div>
+                <div class="italic-text">G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -69,7 +69,7 @@ global $mysqli;
               <img src="images/main-slider/s1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Welcome to Global Shipping</div>
+                <div class="italic-text">Welcome to G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -87,7 +87,7 @@ global $mysqli;
               <img src="images/main-slider/s2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Global Shipping</div>
+                <div class="italic-text">G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -146,7 +146,7 @@ global $mysqli;
           </svg>
           <h4 class="tw-text-3xl tw-font-bold tw-text-primary tw-text-center">Quality Control</h4>
           <hr class="tw-my-4" />
-          <p>Global Shippings Ocean Freight shipments include a wide range of quality controlled equipment types. We strive for on time deliverability and provide end-to-end visibility.</p>
+          <p>G-Express Agencys Ocean Freight shipments include a wide range of quality controlled equipment types. We strive for on time deliverability and provide end-to-end visibility.</p>
         </div>
       </div>
     </section>

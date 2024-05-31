@@ -15,7 +15,7 @@ global $mysqli;
 
 <head>
   <meta charset="utf-8">
-  <title>Global Shipping | Home</title>
+  <title>G-Express Agency | Home</title>
   <!-- Stylesheets -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/revolution-slider.css" rel="stylesheet">
@@ -54,7 +54,7 @@ global $mysqli;
               <img src="images/main-slider/t1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Global Shipping</div>
+                <div class="italic-text">G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -72,7 +72,7 @@ global $mysqli;
               <img src="images/main-slider/t2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Welcome to Global Shipping</div>
+                <div class="italic-text">Welcome to G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -90,7 +90,7 @@ global $mysqli;
               <img src="images/main-slider/t3.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-70" data-speed="1500" data-start="0" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
-                <div class="italic-text">Global Shipping</div>
+                <div class="italic-text">G-Express Agency</div>
               </div>
 
               <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="10" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
@@ -129,7 +129,7 @@ global $mysqli;
       </section>
       <section class=" tw-mx-10 tw-my-10 tw-px-5">
         <nav class="tw-text-gray-700">
-          <a href="" class="hover:tw-text-primary">Global Shipping</a>
+          <a href="" class="hover:tw-text-primary">G-Express Agency</a>
           <svg class="tw-h-5 tw-w-5 tw-fill-gray-700 tw-inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <title>
               chevron-right</title>
@@ -141,7 +141,7 @@ global $mysqli;
               chevron-right</title>
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
           </svg>
-          <a href="" class="hover:tw-text-primary">Global Shipping Global Forwarding</a>
+          <a href="" class="hover:tw-text-primary">G-Express Agency Global Forwarding</a>
           <svg class="tw-h-5 tw-w-5  tw-inline tw-fill-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <title>
               chevron-right</title>
@@ -163,7 +163,7 @@ global $mysqli;
       </section>
       <section class="tw-my-10 tw-px-5">
         <div class="tw-text-center tw-mx-auto tw-max-w-[768px]">
-          <h2 class=" tw-font-bold tw-text-3xl tw-mb-8">Global Shipping RailLine - Full-Container-Load (FCL)</h2>
+          <h2 class=" tw-font-bold tw-text-3xl tw-mb-8">G-Express Agency RailLine - Full-Container-Load (FCL)</h2>
           <div class="">
             <img src="/images/rail-2.jpg" alt="not found" class="md:tw-float-right tw-h-48 tw-w-96">
             <ul class="tw-list-[square] tw-text-left tw-space-y-4 tw-py-5">
@@ -206,7 +206,7 @@ global $mysqli;
           </div>
         </div>
         <div class="tw-text-center tw-mx-auto tw-max-w-[768px]">
-          <h2 class=" tw-font-bold tw-text-3xl tw-mb-8">Global Shipping RailConnect - Less-than-Container-Load (LCL)</h2>
+          <h2 class=" tw-font-bold tw-text-3xl tw-mb-8">G-Express Agency RailConnect - Less-than-Container-Load (LCL)</h2>
           <div class="">
             <img src="/images/rail-2.jpg" alt="not found" class="md:tw-float-right tw-h-48 tw-w-96">
             <ul class="tw-list-[square] tw-text-left tw-space-y-4 tw-py-5">

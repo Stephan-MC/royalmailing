@@ -7,7 +7,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 <meta charset="utf-8">
-<title>Global Shipping | Home</title>
+<title>G-Express Agency | Home</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/revolution-slider.css" rel="stylesheet">
@@ -41,7 +41,7 @@
                 <!--Top Left-->
                 <div class="top-left pull-left">
                     <ul class="links-nav clearfix">
-                        <li><a href="index.php">Welcome to Global Shipping</a></li>
+                        <li><a href="index.php">Welcome to G-Express Agency</a></li>
                     </ul>
                 </div>
                 
@@ -73,7 +73,7 @@
                 <div class="clearfix">
                     
                     <div class="pull-left logo-outer">
-                        <div class="logo"><a href="index.php"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a></div>
+                        <div class="logo"><a href="index.php"><img src="images/logo.png" alt="G-Express Agency" title="G-Express Agency"></a></div>
                     </div>
                     
                     <div class="pull-right upper-right clearfix">
@@ -158,7 +158,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="Global Shipping" title="Global Shipping"></a>
+                    <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="G-Express Agency" title="G-Express Agency"></a>
                 </div>
                 
                 <!--Right Col-->
@@ -220,7 +220,7 @@
                     data-elementdelay="0.01"
                     data-endelementdelay="0.3"
                     data-endspeed="1200"
-                    data-endeasing="Power4.easeIn"><div class="italic-text">Welcome to Global Shipping</div></div>
+                    data-endeasing="Power4.easeIn"><div class="italic-text">Welcome to G-Express Agency</div></div>
                     
                     <div class="tp-caption sfl sfb tp-resizeme"
                     data-x="left" data-hoffset="15"
@@ -278,7 +278,7 @@
                     data-elementdelay="0.01"
                     data-endelementdelay="0.3"
                     data-endspeed="1200"
-                    data-endeasing="Power4.easeIn"><div class="italic-text">Welcome to Global Shipping</div></div>
+                    data-endeasing="Power4.easeIn"><div class="italic-text">Welcome to G-Express Agency</div></div>
                     
                     <div class="tp-caption sfl sfb tp-resizeme"
                     data-x="left" data-hoffset="15"
@@ -336,7 +336,7 @@
                     data-elementdelay="0.01"
                     data-endelementdelay="0.3"
                     data-endspeed="1200"
-                    data-endeasing="Power4.easeIn"><div class="italic-text">Welcome to Global Shipping</div></div>
+                    data-endeasing="Power4.easeIn"><div class="italic-text">Welcome to G-Express Agency</div></div>
                     
                     <div class="tp-caption sfl sfb tp-resizeme"
                     data-x="left" data-hoffset="15"
@@ -400,8 +400,8 @@
                 	<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     	<!-- <figure class="image-box"><img src="images/resource/featured-image-1.jpg" alt=""><a class="overlay" href="services-single.php"></a></figure> -->
                         <div class="lower-content">
-                        	<h3><a href=".php#">Global Shipping is a company that delivers and prides itself on providing the best care to its clients.</a></h3>
-                            <div class="text">Global Shipping is one of the leading public transportation and logistics companies in Ireland with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Global Shipping to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Global Shipping operations are located in the West and the Group benefits from growing trade volumes between Europe and Asian countries.   
+                        	<h3><a href=".php#">G-Express Agency is a company that delivers and prides itself on providing the best care to its clients.</a></h3>
+                            <div class="text">G-Express Agency is one of the leading public transportation and logistics companies in Ireland with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables G-Express Agency to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of G-Express Agency operations are located in the West and the Group benefits from growing trade volumes between Europe and Asian countries.   
                             </div>
                             <br>
                             <div class="text-center"><a href="about.php" class="theme-btn btn-style-one">Read More <span class="fa fa-caret-right"></span></a></div>
@@ -439,7 +439,7 @@
                         <div class="single-item-carousel testimonial-carousel">
                             <!--Slide Item-->
                             <div class="slide-item">
-                                <div class="content-box">I want to thank you soo much for keeping your word. All went well and Now I am going to deliver everything through you. Thank you again Global Shipping, I was really impressed.</div>
+                                <div class="content-box">I want to thank you soo much for keeping your word. All went well and Now I am going to deliver everything through you. Thank you again G-Express Agency, I was really impressed.</div>
                                 <div class="info-box">
                                     <figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/client1.png" alt=""></figure>
                                     <!-- <h4>FRED</h4> -->
@@ -449,7 +449,7 @@
                             
                             <!--Slide Item-->
                             <div class="slide-item">
-                                <div class="content-box">How amazing how you guys delivered so early. I thought it was going to take time but I was wrong. Thanks so much Global Shipping you are the best I can ever use and ask anyone out there to use.</div>
+                                <div class="content-box">How amazing how you guys delivered so early. I thought it was going to take time but I was wrong. Thanks so much G-Express Agency you are the best I can ever use and ask anyone out there to use.</div>
                                 <div class="info-box">
                                     <figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/client2.png" alt=""></figure>
                                     <!-- <h4>CHEWY AND TONTO</h4> -->
@@ -459,7 +459,7 @@
                             
                             <!--Slide Item-->
                             <div class="slide-item">
-                                <div class="content-box">I am amazed. I am now comfortable that my goods can reach me safe, secure and on time. It's really swift and rapid. Thanks to Global Shipping.</div>
+                                <div class="content-box">I am amazed. I am now comfortable that my goods can reach me safe, secure and on time. It's really swift and rapid. Thanks to G-Express Agency.</div>
                                 <div class="info-box">
                                     <figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/client3.jpg" alt=""></figure>
                                     <!-- <h4>EVA</h4> -->
@@ -476,7 +476,7 @@
             <!--Form Column-->
             <div class="form-column" id="inquiry">
                 <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="title"><h2>Global Shipping | First class courier</h2></div>
+                    <div class="title"><h2>G-Express Agency | First class courier</h2></div>
                     <div class="get-quote default-form">
 
                         
@@ -661,7 +661,7 @@
                             <!-- <h2>Helping and providing best services to our clients for over 20 years now </h2> -->
                         </div>
                         <div class="text">
-                            <p>As a logistics management company, Global Shipping helps arrange port-to-port, door-to-door and terminal-to-terminal delivery for a wide range of goods. The company accepts both air and sea freight, and arranges to have goods transported to global destinations. Our logistics services include load and routing management, local storage and load consolidation, break bulk cargo packing, crating and loading services. </p>
+                            <p>As a logistics management company, G-Express Agency helps arrange port-to-port, door-to-door and terminal-to-terminal delivery for a wide range of goods. The company accepts both air and sea freight, and arranges to have goods transported to global destinations. Our logistics services include load and routing management, local storage and load consolidation, break bulk cargo packing, crating and loading services. </p>
                         </div>
                         <!-- <div class="link-box"><a href="#" class="theme-btn btn-style-one">Learn More</a></div> -->
                     </div>
@@ -909,7 +909,7 @@
                         <div class="footer-widget about-widget">
                             <h2>About Us</h2>
                             <div class="text">
-                            	<p>Global Shipping is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables Global Shipping to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of Global Shipping operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
+                            	<p>G-Express Agency is one of the leading public transportation and logistics companies in the UK with operations in ports, rail, integrated logistics and shipping business. Diversified but integrated asset portfolio enables G-Express Agency to provide door-to-door logistics solutions and control almost all steps of the intermodal transportation value chain. The majority of G-Express Agency operations are located in the East and the Group benefits from growing trade volumes between the UK and Asian countries. <a href="about.php">READ MORE.....</a> </p>
                             </div>
                             
                         </div>
@@ -999,7 +999,7 @@
                     	<div class="copyright">&copy; Copyrights <?php
 $current_year = date('Y');
 echo $current_year;
-?> <a href="index.php" target="_blank" style="color: #ffa400;">Global Shipping</a>. All rights reserved</div>
+?> <a href="index.php" target="_blank" style="color: #ffa400;">G-Express Agency</a>. All rights reserved</div>
                     </div>
                     <!--Social Links-->
                     <div class="pull-right">
