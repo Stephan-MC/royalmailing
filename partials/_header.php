@@ -60,7 +60,7 @@
     <div class="auto-container clearfix">
       <!--Logo-->
       <div class="logo pull-left">
-        <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="Express Delivery Mail" title="Express Delivery Mail"></a>
+        <a href="index.php" class="img-responsive"><img src="images/logo.jpeg" style="height:100px" alt="Express Delivery Mail" title="Express Delivery Mail"></a>
       </div>
 
       <!--Right Col-->
