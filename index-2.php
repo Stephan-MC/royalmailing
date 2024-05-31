@@ -74,7 +74,7 @@
                 <div class="clearfix">
                     
                     <div class="pull-left logo-outer">
-                        <div class="logo"><a href="index.php"><img src="images/logo.png" alt="G-Express Agency" title="G-Express Agency"></a></div>
+                        <div class="logo"><a href="index.php"><img src="images/logo.jpeg" alt="G-Express Agency" title="G-Express Agency"></a></div>
                     </div>
                     
                     <div class="pull-right upper-right clearfix">
@@ -159,7 +159,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="G-Express Agency" title="G-Express Agency"></a>
+                    <a href="index.php" class="img-responsive"><img src="images/logo.jpeg" alt="G-Express Agency" title="G-Express Agency"></a>
                 </div>
                 
                 <!--Right Col-->

@@ -87,7 +87,7 @@ global $mysqli;
           <div class="clearfix">
 
             <div class="pull-left logo-outer">
-              <div class="logo"><a href="index.php"><img src="images/logo.png" alt="Express Delivery Mail" title="Express Delivery Mail"></a></div>
+              <div class="logo"><a href="index.php"><img src="images/logo.jpeg" alt="Express Delivery Mail" title="Express Delivery Mail"></a></div>
             </div>
 
             <div class="pull-right upper-right clearfix">
@@ -172,7 +172,7 @@ global $mysqli;
         <div class="auto-container clearfix">
           <!--Logo-->
           <div class="logo pull-left">
-            <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="Express Delivery Mail" title="Express Delivery Mail"></a>
+            <a href="index.php" class="img-responsive"><img src="images/logo.jpeg" alt="Express Delivery Mail" title="Express Delivery Mail"></a>
           </div>
 
           <!--Right Col-->
