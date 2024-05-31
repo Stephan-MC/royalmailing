@@ -192,7 +192,7 @@ global $mysqli;
                 <li>Service covering Asian origins/destinations in China, Taiwan, Japan, Korea, Vietnam, to and
                   from Europe
                 </li>
-                <li>Highly reliable connections between GSN’s regional networks in Europe and Asia</li>
+                <li>Highly reliable connections between G-EA’s regional networks in Europe and Asia</li>
                 <li>Dedicated rail hubs in Europe and China</li>
                 <li>Standardised operation from pick-up to delivery</li>
                 <li>Secure and monitored loading and handling</li>
@@ -232,7 +232,7 @@ global $mysqli;
               <ul class="tw-list-[square] tw-text-left tw-space-y-4">
                 <li>Standard loading unit: pallets, cartons or boxes</li>
                 <li>Service covering origins/destinations in China and Europe</li>
-                <li>Regular departures between major business centres, with connections between GSN’s regional
+                <li>Regular departures between major business centres, with connections between G-EA’s regional
                   networks, via dedicated rail hubs in Europe and China
                 </li>
                 <li>Standardised operation from pick-up to delivery, with defined and highly reliable
@@ -241,7 +241,7 @@ global $mysqli;
                 <li>Secure and monitored loading and handling</li>
                 <li>State-of-the-art Track and Trace</li>
                 <li>Efficient handling of transit formalities</li>
-                <li>Pick-up and delivery via GSN road networks</li>
+                <li>Pick-up and delivery via G-EA road networks</li>
                 <li>Maximum dimensions per item: 240cm (L) x 220cm (W) x 220cm (H)</li>
                 <li>Excludes dangerous goods</li>
               </ul>
@@ -269,7 +269,7 @@ global $mysqli;
             <div class="tw-h-2/4 tw-py-10 tw-px-5">
               <h3 class="tw-text-gray-700 tw-text-sm">A range of flexible Rail and Multimodal transport solutions at a cost efficient rate
                 including a suite of value added services ensure that you receive the quality service you expect
-                from GSN</h3>
+                from G-EA</h3>
 
             </div>
           </div>

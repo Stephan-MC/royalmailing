@@ -394,7 +394,7 @@ global $mysqli;
         <p class="tw-my-2 tw-p-0"><sup>1</sup> Including weekend operations</p>
         <p class="tw-my-2 tw-p-0"><sup>2</sup> Depending on origin and destination</p>
         <p class="tw-my-2 tw-p-0"><sup>3</sup> Pickup time from order (standard shipments)</p>
-        <p class="tw-my-2 tw-p-0"><sup>4</sup> GSN Airfreight Plus has 3 day definite service levels: Priority 1-2, Classic 2-3 & Deferred 3-5 days
+        <p class="tw-my-2 tw-p-0"><sup>4</sup> G-EA Airfreight Plus has 3 day definite service levels: Priority 1-2, Classic 2-3 & Deferred 3-5 days
         <p>
       </div>
     </section>

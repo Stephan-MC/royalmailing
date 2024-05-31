@@ -170,7 +170,7 @@
                   <svg class="tw-fill-primary tw-h-10 tw-w-10 tw-mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path d="M18,15H16V17H18M18,11H16V13H18M20,19H12V17H14V15H12V13H14V11H12V9H20M10,7H8V5H10M10,11H8V9H10M10,15H8V13H10M10,19H8V17H10M6,7H4V5H6M6,11H4V9H6M6,15H4V13H6M6,19H4V17H6M12,7V3H2V21H22V7H12Z" />
                   </svg>
-                  <h2 class="tw-font-semibold tw-text-sm tw-leading-7">GSN for business</h2>
+                  <h2 class="tw-font-semibold tw-text-sm tw-leading-7">G-EA for business</h2>
                   <p class="tw-text-xs tw-text-gray-600 leading-5 px-2">shipping regularly? request a business
                     account and profit from exclusive benefits</p>
                 </div>
@@ -425,7 +425,7 @@
                 </div>
                 <div class="tw-inset-y-0 tw-right-0  tw-w-full md:tw-w-2/3 md:tw-absolute tw-h-full md:tw-p-10 tw-py-4 tw-space-y-5 tw-bg-white/70 tw-grid md:tw-block">
                   <h2 class="tw-font-bold tw-text-3xl tw-text-primary">Our Divisions</h2>
-                  <p>GSN connects people in over 220 countries and territories worldwide. Driven by the power
+                  <p>G-EA connects people in over 220 countries and territories worldwide. Driven by the power
                     of more than 395,000 employees, we deliver integrated services and tailored solutions
                     for managing and transporting letters, goods and information.</p>
                   <button class="tw-bg-primary tw-text-white tw-px-4 tw-py-2 tw-rounded-md">learn more
@@ -439,8 +439,8 @@
                 <div class="tw-inset-y-0 tw-w-full md:tw-w-2/3 md:tw-absolute tw-h-full md:tw-p-10 tw-py-4 tw-space-y-5 tw-bg-white/70 tw-grid md:tw-block">
                   <h2 class="tw-font-bold tw-text-3xl tw-text-primary">Insights and Innovation</h2>
                   <p>To enable collaboration, the company brings together customers, research and academic
-                    institutions, industry partners, and logistics experts within the GSN business
-                    divisions. As a thought leader in the logistics industry, GSN structurally invests in
+                    institutions, industry partners, and logistics experts within the G-EA business
+                    divisions. As a thought leader in the logistics industry, G-EA structurally invests in
                     trend research and solution development.</p>
                   <button class="tw-bg-primary tw-text-white tw-px-4 tw-py-2 tw-rounded-md">learn more
                   </button>

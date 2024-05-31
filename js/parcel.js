@@ -2,13 +2,13 @@ const parentElement = document.getElementById("secondSwipper");
 const secondSwiper = [
   {
     title: "Ship Like a Pro",
-    body: "Get access to powerful and time-saving customizable features found only in MyGSN+.",
+    body: "Get access to powerful and time-saving customizable features found only in MyG-EA+.",
     btn: "Create a Login and Ship",
     image: '/images/2.jpg'
   },
   {
-    title: "GSN for Business",
-    body: "Get preferred rates, billing options and other great benefits of having a GSN Express account! ",
+    title: "G-EA for Business",
+    body: "Get preferred rates, billing options and other great benefits of having a G-EA Express account! ",
     btn: "Open an Account",
     image: '/images/3.jpg'
   },

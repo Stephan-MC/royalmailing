@@ -162,7 +162,7 @@ global $mysqli;
     </section>
 
     <section class="tw-px-4 tw-my-10 tw-container tw-mx-auto">
-      <h3 class="tw-text-2xl tw-font-black tw-text-center">Our Products</h3>
+      <h3 class="tw-text-2xl tw-font-black tw-text-center tw-text-primary">Our Products</h3>
 
       <div class="tw-max-w-4xl tw-mx-auto">
         <p class="tw-my-4 tw-text-center">
@@ -192,7 +192,7 @@ global $mysqli;
       <div class="tw-p-3 tw-space-y-16 md:tw-space-y-0 md:tw-flex md:tw-flex-row md:tw-gap-3 md:tw-justify-center">
 
         <div class="tw-py-4 tw-px-px tw-border tw-border-gray-300 tw-rounded tw-hidden md:tw-block">
-          <h4 class="tw-text-md tw-invisible tw-font-black tw-text-center">Same Day Jetline</h4>
+          <h4 class="tw-text-md tw-invisible tw-font-black tw-text-center tw-text-primary">Same Day Jetline</h4>
           <span class="tw-text-gray-500 tw-invisible tw-text-center tw-block">Mission Critical Next Flightout</span>
 
           <div class="tw-mt-8 tw-flex tw-flex-col tw-gap-4 md:tw-gap-1 tw-p-1 [&>div]:md:tw-py-3 [&>div>div]:tw-basis-1/2 last:[&>div>div]:md:tw-hidden [&>div>div]:md:tw-basis-full last:[&>div>div]:!tw-text-left last:[&>div>div]:tw-font-bold [&>div]:tw-text-sm">
@@ -230,7 +230,7 @@ global $mysqli;
         </div>
 
         <div class="tw-py-4 tw-px-2 tw-border tw-border-gray-300 tw-rounded tw-flex-1">
-          <h4 class="tw-text-md tw-font-black tw-text-center">Same Day Jetline</h4>
+          <h4 class="tw-text-md tw-font-black tw-text-center tw-text-primary">Same Day Jetline</h4>
           <span class="tw-text-gray-500 tw-text-center tw-block">Mission Critical Next Flight Out</span>
 
           <div class="tw-mt-8 tw-flex tw-flex-col tw-gap-4 md:tw-gap-1 tw-p-1 first:[&>div>div]:tw-text-gray-500 first:[&>div>div]:md:tw-hidden [&>div]:md:tw-py-3 [&>div:nth-child(even)]:md:tw-bg-gray-500/50 [&>div>div]:tw-basis-1/2 [&>div>div]:md:tw-basis-full last:[&>div>div]:!tw-text-center last:[&>div>div]:tw-font-bold [&>div]:tw-text-sm">
@@ -273,7 +273,7 @@ global $mysqli;
 
 
         <div class="tw-py-4 tw-px-2 tw-border tw-border-gray-300 tw-rounded tw-flex-1">
-          <h4 class="tw-text-md tw-font-black tw-text-center">Same Day Speedline</h4>
+          <h4 class="tw-text-md tw-font-black tw-text-center tw-text-primary">Same Day Speedline</h4>
           <span class="tw-text-gray-500 tw-text-center tw-block">Mission Critical Best Flight Out</span>
 
           <div class="tw-mt-8 tw-flex tw-flex-col tw-gap-4 md:tw-gap-1 tw-p-1 first:[&>div>div]:tw-text-gray-500 first:[&>div>div]:md:tw-hidden [&>div]:md:tw-py-3 [&>div:nth-child(even)]:md:tw-bg-gray-500/50 [&>div>div]:tw-basis-1/2 [&>div>div]:md:tw-basis-full last:[&>div>div]:!tw-text-center last:[&>div>div]:tw-font-bold [&>div]:tw-text-sm">
@@ -315,7 +315,7 @@ global $mysqli;
         </div>
 
         <div class="tw-py-4 tw-px-2 tw-border tw-border-gray-300 tw-rounded tw-flex-1">
-          <h4 class="tw-text-md tw-font-black tw-text-center">Air Priority</h4>
+          <h4 class="tw-text-md tw-font-black tw-text-center tw-text-primary">Air Priority</h4>
           <span class="tw-text-gray-500 tw-text-center tw-block">Urgent Air Freight</span>
 
           <div class="tw-mt-8 tw-flex tw-flex-col tw-gap-4 md:tw-gap-1 tw-p-1 first:[&>div>div]:tw-text-gray-500 first:[&>div>div]:md:tw-hidden [&>div]:md:tw-py-3 [&>div:nth-child(even)]:md:tw-bg-gray-500/50 [&>div>div]:tw-basis-1/2 [&>div>div]:md:tw-basis-full last:[&>div>div]:!tw-text-center last:[&>div>div]:tw-font-bold [&>div]:tw-text-sm">
@@ -361,13 +361,13 @@ global $mysqli;
         <p class="tw-my-2 tw-p-0"><sup>1</sup> Including weekend operations</p>
         <p class="tw-my-2 tw-p-0"><sup>2</sup> Depending on origin and destination</p>
         <p class="tw-my-2 tw-p-0"><sup>3</sup> Pickup time from order (standard shipments)</p>
-        <p class="tw-my-2 tw-p-0"><sup>4</sup> GSN Airfreight Plus has 3 day definite service levels: Priority 1-2, Classic 2-3 & Deferred 3-5 days
+        <p class="tw-my-2 tw-p-0"><sup>4</sup> G-EA Airfreight Plus has 3 day definite service levels: Priority 1-2, Classic 2-3 & Deferred 3-5 days
         <p>
       </div>
     </section>
 
     <section class="tw-py-16 tw-px-4 tw-container tw-mx-auto">
-      <h3 class="tw-text-2xl tw-font-black tw-text-center tw-mb-4">Why Choose Us?</h3>
+      <h3 class="tw-text-2xl tw-font-black tw-text-center tw-mb-4 tw-text-primary">Why Choose Us?</h3>
       <img src="/images/2-2.jpg" alt="" class="tw-block tw-w-full tw-object-cover tw-object-center tw-mx-auto" />
 
       <div class="tw-flex tw-flex-col tw-items-center tw-max-w-5xl tw-mx-auto">
@@ -387,7 +387,7 @@ global $mysqli;
       <img src="/images/2-3.jpg" alt="" class="tw-block tw-mx-auto">
 
       <div class="tw-space-y-3 tw-pt-2">
-        <h3 class="tw-text-2xl tw-font-black tw-text-center tw-tracking-tight">Thinking Things Over or Unsure of what to do ?</h3>
+        <h3 class="tw-text-2xl tw-font-black tw-text-center tw-tracking-tight tw-text-primary">Thinking Things Over or Unsure of what to do ?</h3>
 
         <p class="tw-text-center">Get in contact with our Global Shipping experts to discuss your requirements or find solutions to your worries</p>
 
