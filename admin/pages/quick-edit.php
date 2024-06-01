@@ -1,24 +1,15 @@
 
-    <?php include("config.php"); ?>
+<?php include("config.php");
 
-    <?php
-    session_start();
+  global $conn;
+
+  session_start();
 
     // Check if user is not logged in
     if (!isset($_SESSION['user_id'])) {
         // Redirect user to login page
         header('Location: login.php');
         exit();
-    }
-
-    // Establish a connection to the database
-    $dbhost = 'localhost';     // replace with your database host name
-    $dbuser = 'root';          // replace with your database username
-    $dbpass = '';      // replace with your database password
-    $dbname = 'demo';    // replace with your database name
-    $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
     }
 
     $shipment = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM shipment WHERE id=" . $_GET['edit']));

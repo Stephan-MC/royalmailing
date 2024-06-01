@@ -3,7 +3,11 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/globalexpressage/public_html
 
-    - rsync -av . $DEPLOYPATH/ --exclude=.git
+    # Synchronise files with that in the cpanel 'public_html' directory
+    - rsync -av . $DEPLOYPATH/ --exclude=.git --exclude=admin/pages/config.production.php
+
+    # Repalce database config file
+    - rsync -av admin/pages/config.production.php $DEPLOYPATH/admin/pages/config.php
 
     # Install composer dependencies
     - /opt/cpanel/composer/bin/composer --working-dir=$DEPLOYPATH/ install

@@ -1,15 +1,12 @@
 <?php
 // Create a connection to the database
-$host = "localhost"; // Change this to your MySQL server hostname
-$username = "root"; // Change this to your MySQL username
-$password = ""; // Change this to your MySQL password
-$database = "demo"; // Change this to your MySQL database name
+require 'config.php';
 
-$conn = new mysqli($host, $username, $password, $database);
+global $mysqli;
 
 // Check if the connection is successful
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+if (!$mysqli) {
+    die("mysqliection failed: " . mysqli_connect_error());
 }
 
 $id=$_REQUEST['id']; 
@@ -17,14 +14,14 @@ $id=$_REQUEST['id'];
 $sql = "DELETE FROM shipment WHERE id = $id";
 
 // Execute the DELETE query
-if (mysqli_query($conn, $sql)) {
-    mysqli_close($conn);
+if (mysqli_query($mysqli, $sql)) {
+    mysqli_close($mysqli);
     header('Location: all-shipment.php');
 
 } else {
-    echo "Error deleting record: " . mysqli_error($conn);
+    echo "Error deleting record: " . mysqli_error($mysqli);
 }
 
-// Close the connection
-mysqli_close($conn);
+// Close the mysqliection
+mysqli_close($mysqli);
 ?>

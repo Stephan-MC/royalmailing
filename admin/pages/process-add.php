@@ -1,11 +1,11 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "demo";
+require 'config.php';
+require '../../email.php';
 
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+global $mysqli;
+$conn = $mysqli;
+
 
 // Check connection
 if (!$conn) {
@@ -101,21 +101,5 @@ mysqli_close($conn);
 
 
 
-function sendEmail($to, $message) {
-    // Subject of the email
-    $subject = "Your Order Tracking Information";
-
-    // Headers
-    $headers = "From: no-reply@yourdomain.com\r\n";
-    $headers .= "Reply-To: no-reply@yourdomain.com\r\n";
-    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-
-    // Sending the email
-    if(mail($to, $subject, $message, $headers)) {
-        return "Email sent successfully to $to.";
-    } else {
-        return "Failed to send email.";
-    }
-}
-
+sendOrderTrackingEmail($sender_email);
 ?>

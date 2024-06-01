@@ -1,11 +1,12 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
-<?php include("config.php"); ?>
+  <?php 
+  session_start();
 
-<?php
-session_start();
+  include("config.php"); 
+
+  global $conn;
 
 // Check if user is not logged in
 if (!isset($_SESSION['user_id'])) {
@@ -156,12 +157,7 @@ if (!isset($_SESSION['user_id'])) {
                         <div class="table-responsive" style="overflow: auto">
                         <?php
 // Connect to MySQL database
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "demo";
 
-$conn = mysqli_connect($servername, $username, $password, $dbname);
 
 // Check connection
 if (!$conn) {

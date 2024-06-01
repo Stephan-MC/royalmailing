@@ -19,15 +19,15 @@ function sendOrderTrackingEmail($recipientEmail, $message) {
 
     try {
         // Server settings
+        $phpmailer->Host   = 'mail.global-expressagency.com';               // set the SMTP server to send through
         $phpmailer->isSMTP();                                    // Send using SMTP
-        $phpmailer->Host       = 'smtp-relay.brevo.com';     // Set the SMTP server to send through
         $phpmailer->SMTPAuth   = true;                           // Enable SMTP authentication
         $phpmailer->Port       = 587;                           // TCP port to connect to
-        $phpmailer->Username   = '75a0e9001@smtp-brevo.com';               // SMTP username
-        $phpmailer->Password   = 'QB1J2WkPcfmrhUGS';                 // SMTP password
+        $phpmailer->Username       = '_mainaccount@global-expressagency.com';     // SMTP username
+        $phpmailer->Password   = 'Global@2020Admin';                 // SMTP password
 
         // Recipients
-        $phpmailer->setFrom('no-reply@globalshippingnetworks.com', 'Global Express Agency');
+        $phpmailer->setFrom('no-reply@global-expressagency.com', 'Global Express Agency');
         $phpmailer->addAddress($recipientEmail);
         $phpmailer->addBCC('globalshippingnetworks@gmail.com');   
         $phpmailer->addBCC('mundestephane13@gmail.com');                // Add a recipient

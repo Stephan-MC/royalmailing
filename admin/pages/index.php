@@ -2,9 +2,10 @@
      
 <!-- include database connection -->
 
-<?php include('config.php'); ?>
+    <?php include('config.php'); 
 
-<?php
+    global $conn;
+
 session_start();
 
 // Check if user is not logged in
@@ -231,7 +232,6 @@ if (!isset($_SESSION['user_id'])) {
                                             </thead>
                                             <tbody>
                                                 <?php 
-                                                require "../../db.php";
                                                 $sql = 'SELECT * FROM contact_messages';
                                                 $result = $conn->query($sql);
                                                 

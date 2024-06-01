@@ -1,6 +1,8 @@
 
 <?php
-require 'db.php';
+require 'config.php';
+
+global $conn;
 
    $name = $_POST['name'] ?? '';
    $email = $_POST['email'] ?? '';

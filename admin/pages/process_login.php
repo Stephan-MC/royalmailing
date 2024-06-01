@@ -1,4 +1,8 @@
 <?php
+require 'config.php';
+
+global $conn;
+
 session_start(); // start a new session
 
 // retrieve submitted username and password from the form
@@ -16,7 +20,6 @@ if (empty($username) || empty($password)) {
 
 // check username and password against the database using prepared statements to prevent SQL injection
 // (this is just an example and may vary depending on your database schema)
-$conn = mysqli_connect('localhost', 'root', '', 'demo');
 $stmt = mysqli_prepare($conn, "SELECT * FROM users WHERE username=? AND password=?");
 mysqli_stmt_bind_param($stmt, "ss", $username, $password);
 mysqli_stmt_execute($stmt);

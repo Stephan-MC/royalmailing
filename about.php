@@ -19,9 +19,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <link href="css/responsive.css" rel="stylesheet">
-<script src="//code.jivosite.com/widget/p1nJYGIUvj" async></script>
-<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-0c892794-8659-491e-ab20-2033721f7a62"></div>
+
+
+
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 

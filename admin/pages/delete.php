@@ -1,5 +1,7 @@
 <?php
-require "../../db.php";
+require "config.php";
+
+global $conn;
 
 
 if (isset($_GET['id'])) {

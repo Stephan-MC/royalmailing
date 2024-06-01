@@ -4,10 +4,10 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include("config.php"); ?>
-
-<?php
-session_start();
+<?php 
+  session_start();
+  include("config.php"); 
+  global $conn;
 
 // Check if user is not logged in
 if (!isset($_SESSION['user_id'])) {
@@ -17,11 +17,6 @@ if (!isset($_SESSION['user_id'])) {
 }
 
     // Establish a connection to the database
-    $dbhost = 'localhost';     // replace with your database host name
-    $dbuser = 'root';          // replace with your database username
-    $dbpass = '';      // replace with your database password
-    $dbname = 'demo';    // replace with your database name
-    $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
