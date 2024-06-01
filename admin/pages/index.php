@@ -1,12 +1,15 @@
-    <!-- include header -->
-     
-<!-- include database connection -->
-
-    <?php include('config.php'); 
-
-    global $conn;
+<?php 
 
 session_start();
+include('config.php'); 
+
+global $conn;
+$sql = 'SELECT * FROM contact_messages';
+$contacts = $conn->query($sql);
+
+$sql = 'SELECT * from shipment';
+$shipments = $conn->query($sql);
+
 
 // Check if user is not logged in
 if (!isset($_SESSION['user_id'])) {
@@ -65,7 +68,7 @@ if (!isset($_SESSION['user_id'])) {
                     <span class='icon-bar'></span>
                     <span class='icon-bar'></span>
                 </button>
-                <a class='navbar-brand' href='index.php'><img src='../img/all1.png' class='img-responsive' alt='logo' style='margin-top: 0px !important; width: 100px; height: 30px;'></a>
+                <a class='navbar-brand' href='index.php'><img src='../img/all1.png' class='img-responsive' alt='logo' style='margin-top: 0px !important; height: 100%; aspect-ratio: 1/1; object-fit: cover; object-position: center;'></a>
             </div>
             <!-- /.navbar-header -->
 
@@ -123,7 +126,7 @@ if (!isset($_SESSION['user_id'])) {
                                 <div class='col-xs-9 text-right'>
 
                                     
-                                    <div class='huge'>2</div>
+                                    <div class='huge'><?= $contacts->num_rows ?? 0 ?></div>
                                     <div>Contacts!</div>
                                 </div>
                             </div>
@@ -169,7 +172,7 @@ if (!isset($_SESSION['user_id'])) {
                                 <div class='col-xs-9 text-right'>
 
                                     
-                                    <div class='huge'>56</div>
+                    <div class='huge'><?=  $shipments->num_rows ?? 0 ?></div>
                                     <div>Shipments!</div>
                                 </div>
                             </div>
@@ -232,13 +235,11 @@ if (!isset($_SESSION['user_id'])) {
                                             </thead>
                                             <tbody>
                                                 <?php 
-                                                $sql = 'SELECT * FROM contact_messages';
-                                                $result = $conn->query($sql);
                                                 
                                                 // Check if there are any rows returned
-                                                if ($result->num_rows > 0) {
+                                                if ($contacts->num_rows > 0) {
                                                     // Output data of each row
-                                                    while ($row = $result->fetch_assoc()) {
+                                                    while ($row = $contacts->fetch_assoc()) {
 
                                                 echo "
                                                 
