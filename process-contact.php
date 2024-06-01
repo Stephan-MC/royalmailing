@@ -1,9 +1,12 @@
 
 <?php
-require 'config.php';
+require 'admin/pages/config.php';
 
-global $conn;
+/** @var Mysqli */
+global $mysqli;
 
+
+  if(isset($_POST['send_message'])) {
    $name = $_POST['name'] ?? '';
    $email = $_POST['email'] ?? '';
    $organization = $_POST['organization'] ?? '';
@@ -11,35 +14,38 @@ global $conn;
    $country = $_POST['country'] ?? '';
    $subject = $_POST['subject'] ?? '';
    $message = $_POST['message'] ?? '';
-if($_POST['send_message'])
 
-    $stmt = $conn->prepare('INSERT INTO contact_messages (name, email, organization, phone, country, subject, message) VALUES (?, ?, ?, ?, ?, ?, ?)');
-    
+      $stmt = $mysqli->prepare('INSERT INTO contact_messages (name, email, organization, phone, country, subject, message) VALUES (?, ?, ?, ?, ?, ?, ?)'); 
 
-    $stmt->bind_param('sssssss', $name, $email, $organization, $phone, $country, $subject, $message);
+      $stmt->bind_param('sssssss', $name, $email, $organization, $phone, $country, $subject, $message);
 
- 
-    if ($stmt->execute()) {
-      echo
-      '
-      <html>
-      <script>
-      alert("message successfully!sents");
-      window.location.href="index.php";
-      </script>
-      </html>
-      ';
-      
-    } else {
-        echo " <html>
+
+
+  
+      if ($stmt->execute()) { 
+        echo
+        '
+        <html>
         <script>
-        alert('message not sent');
-        window.location.href='contact.php';
+        alert("message successfully!sents");
+        window.location.href="index.php";
         </script>
+        </html>
+        ';
+        
+      } else {
+          echo " <html>
+          <script>
+          alert('message not sent');
+          window.location.href='contact.php';
+          </script>
 
-        </html>";
-    }
+          </html>";
+      }
 
-    // Close the statement
-    $stmt->close();
+      // Close the statement
+      $stmt->close();
+
+  }
+
 ?>
