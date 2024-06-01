@@ -18,6 +18,17 @@ if (isset($_POST['track'])) {
     } else {
         $error = "Invalid tracking code";
     }
+} 
+else if (isset($_GET['tracking_code'])) {
+    $tracking = $_GET['tracking_code'];
+
+    if ($result = mysqli_query($mysqli, "SELECT * FROM shipment WHERE trackin_number = $tracking")) {
+        $shipment = mysqli_fetch_assoc($result);
+        $bar = bar128($tracking);
+    } else {
+        $error = "Invalid tracking code";
+    }
+  
 }
 
 
