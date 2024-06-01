@@ -62,16 +62,18 @@ $sql = "INSERT INTO shipment (
     '$sender_phone', '$sender_street', '$sender_city', '$sender_country', '$receiver_name',
     '$receiver_email', '$receiver_city', '$receiver_country', '$receiver_contact' ,'$product_name' ,'$receiver_hphone'
 )";
+
+$url = WEBSITE_URL . '/tracking.php';
+
 $message1="
 
 Dear $receiver_name,
 
-I hope this email finds you well.
+We hope this email finds you well.
 
-I wanted to let you know that your order has been shipped. You can track your package using the following tracking number:$trackin_number.
+We wanted to let you know that your order has been shipped. You can track your package using the following tracking number:$trackin_number.
 
-To track your shipment, please visit [Courier's Tracking Website] and enter the tracking number provided.";
-echo sendEmail($receiver_email, $message1);
+To track your shipment, please visit [{$url}] and enter the tracking number provided.";
 
 $result = mysqli_query($conn, $sql);
 
@@ -101,5 +103,5 @@ mysqli_close($conn);
 
 
 
-sendOrderTrackingEmail($sender_email);
+sendOrderTrackingEmail($sender_email, $message1);
 ?>
